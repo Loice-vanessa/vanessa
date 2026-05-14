@@ -1,0 +1,53 @@
+
+
+@Entity
+@Table(name = "users")
+@Inheritance(strategy = InheritanceType.JOINED)
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+public class User {
+    @Id 
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+
+    @Column(nullable = false)
+    private String fullname;
+
+    @Column(nullable = false, unique = true)
+    private String email;
+
+    @Column(nullable = false)
+    private String password;
+
+    private String phone;
+
+    @Column(nullable = false)
+    private Role role;
+}
+
+
+@Entity
+@Table(name = "patients")
+@Data
+public class Patient extends User {
+    private String gender;
+    private String address;
+    private java.util.Date dateOfBirth;
+    private String bloodGroup;
+}
+
+@Entity
+@Table(name = "doctors")
+@Data
+public class Doctor extends User {
+    private String specialization;
+    private String qualification;
+}
+
+@Entity
+@Table(name = "admins")
+@Data
+public class Admin extends User {
+    private String permission;
+}

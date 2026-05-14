@@ -1,0 +1,1244 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------------< com.auca:backend >--------------------------
+[INFO] Building  0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot:4.0.6:run (default-cli) > test-compile @ backend >>>
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ backend ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.14.1:compile (default-compile) @ backend ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ backend ---
+[INFO] skip non existing resourceDirectory c:\Users\afany\Desktop\Projects\vanessa\backend\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.14.1:testCompile (default-testCompile) @ backend ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] <<< spring-boot:4.0.6:run (default-cli) < test-compile @ backend <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot:4.0.6:run (default-cli) @ backend ---
+[INFO] Attaching agents: []
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v4.0.6)
+
+2026-05-07T20:52:32.599+02:00  INFO 31864 --- [backend] [           main] com.auca.backend.BackendApplication      : Starting BackendApplication using Java 21.0.9 with PID 31864 (C:\Users\afany\Desktop\Projects\vanessa\backend\target\classes started by afany in c:\Users\afany\Desktop\Projects\vanessa\backend)
+2026-05-07T20:52:32.602+02:00  INFO 31864 --- [backend] [           main] com.auca.backend.BackendApplication      : The following 1 profile is active: "seed"
+2026-05-07T20:52:32.602+02:00 DEBUG 31864 --- [backend] [           main] o.s.boot.SpringApplication               : Loading source class com.auca.backend.BackendApplication
+2026-05-07T20:52:32.664+02:00 DEBUG 31864 --- [backend] [           main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.server.servlet.context.AnnotationConfigServletWebServerApplicationContext@2631f68c
+2026-05-07T20:52:33.765+02:00  INFO 31864 --- [backend] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-07T20:52:33.791+02:00 DEBUG 31864 --- [backend] [           main] o.s.b.a.AutoConfigurationPackages        : @EnableAutoConfiguration was declared on a class in the package 'com.auca.backend'. Automatic @Repository and @Entity scanning is enabled.
+2026-05-07T20:52:33.866+02:00  INFO 31864 --- [backend] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 89 ms. Found 8 JPA repository interfaces.
+2026-05-07T20:52:34.552+02:00 DEBUG 31864 --- [backend] [           main] o.s.b.t.s.TomcatServletWebServerFactory  : Code archive: C:\Users\afany\.m2\repository\org\springframework\boot\spring-boot-web-server\4.0.6\spring-boot-web-server-4.0.6.jar
+2026-05-07T20:52:34.553+02:00 DEBUG 31864 --- [backend] [           main] o.s.b.t.s.TomcatServletWebServerFactory  : Code archive: C:\Users\afany\.m2\repository\org\springframework\boot\spring-boot-web-server\4.0.6\spring-boot-web-server-4.0.6.jar
+2026-05-07T20:52:34.553+02:00 DEBUG 31864 --- [backend] [           main] o.s.b.t.s.TomcatServletWebServerFactory  : None of the document roots [src/main/webapp, public, static] point to a directory and will be ignored.
+2026-05-07T20:52:34.573+02:00  INFO 31864 --- [backend] [           main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8081 (http)
+2026-05-07T20:52:34.586+02:00  INFO 31864 --- [backend] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-07T20:52:34.586+02:00  INFO 31864 --- [backend] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-05-07T20:52:34.636+02:00 DEBUG 31864 --- [backend] [           main] b.w.c.s.WebApplicationContextInitializer : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2026-05-07T20:52:34.637+02:00  INFO 31864 --- [backend] [           main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1973 ms
+2026-05-07T20:52:34.773+02:00  INFO 31864 --- [backend] [           main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-05-07T20:52:34.834+02:00  INFO 31864 --- [backend] [           main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.12.Final
+2026-05-07T20:52:35.220+02:00  INFO 31864 --- [backend] [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-07T20:52:35.244+02:00  INFO 31864 --- [backend] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-05-07T20:52:35.397+02:00  INFO 31864 --- [backend] [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@f5ae29e
+2026-05-07T20:52:35.399+02:00  INFO 31864 --- [backend] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-05-07T20:52:35.438+02:00  WARN 31864 --- [backend] [           main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-05-07T20:52:35.461+02:00  INFO 31864 --- [backend] [           main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/dhams]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 17.8
+	Default catalog/schema: dhams/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-05-07T20:52:36.605+02:00  INFO 31864 --- [backend] [           main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-07T20:52:36.672+02:00 DEBUG 31864 --- [backend] [           main] org.hibernate.SQL                        : alter table if exists users add column flagged boolean default false not null
+Hibernate: alter table if exists users add column flagged boolean default false not null
+2026-05-07T20:52:36.725+02:00  INFO 31864 --- [backend] [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-07T20:52:36.789+02:00  INFO 31864 --- [backend] [           main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-05-07T20:52:36.942+02:00 DEBUG 31864 --- [backend] [           main] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: springSecurityFilterChain urls=[/*] order=-100, characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105, jwtFilter urls=[/*] order=2147483647
+2026-05-07T20:52:36.942+02:00 DEBUG 31864 --- [backend] [           main] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/]
+2026-05-07T20:52:36.960+02:00 DEBUG 31864 --- [backend] [           main] o.s.b.s.f.OrderedRequestContextFilter    : Filter 'requestContextFilter' configured for use
+2026-05-07T20:52:36.962+02:00 DEBUG 31864 --- [backend] [           main] o.s.b.s.f.OrderedCharacterEncodingFilter : Filter 'characterEncodingFilter' configured for use
+2026-05-07T20:52:36.962+02:00 DEBUG 31864 --- [backend] [           main] .DelegatingFilterProxyRegistrationBean$1 : Filter 'springSecurityFilterChain' configured for use
+2026-05-07T20:52:36.962+02:00 DEBUG 31864 --- [backend] [           main] o.s.b.s.filter.OrderedFormContentFilter  : Filter 'formContentFilter' configured for use
+2026-05-07T20:52:37.181+02:00  INFO 31864 --- [backend] [           main] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2026-05-07T20:52:37.181+02:00  WARN 31864 --- [backend] [           main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2026-05-07T20:52:37.218+02:00  WARN 31864 --- [backend] [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-07T20:52:37.480+02:00 DEBUG 31864 --- [backend] [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : 32 mappings in 'requestMappingHandlerMapping'
+2026-05-07T20:52:37.528+02:00 DEBUG 31864 --- [backend] [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2026-05-07T20:52:37.550+02:00 DEBUG 31864 --- [backend] [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 2 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-05-07T20:52:37.589+02:00 DEBUG 31864 --- [backend] [           main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-05-07T20:52:37.742+02:00  INFO 31864 --- [backend] [           main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8081 (http) with context path '/'
+2026-05-07T20:52:37.748+02:00 DEBUG 31864 --- [backend] [           main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+
+============================
+CONDITIONS EVALUATION REPORT
+============================
+
+
+Positive matches:
+-----------------
+
+   AopAutoConfiguration matched:
+      - @ConditionalOnBooleanProperty (spring.aop.auto=true) matched (OnPropertyCondition)
+
+   AopAutoConfiguration.AspectJAutoProxyingConfiguration matched:
+      - @ConditionalOnClass found required class 'org.aspectj.weaver.Advice' (OnClassCondition)
+
+   AopAutoConfiguration.AspectJAutoProxyingConfiguration.CglibAutoProxyConfiguration matched:
+      - @ConditionalOnBooleanProperty (spring.aop.proxy-target-class=true) matched (OnPropertyCondition)
+
+   ApplicationAvailabilityAutoConfiguration#applicationAvailability matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.availability.ApplicationAvailability; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   DataJpaRepositoriesAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.data.jpa.repository.JpaRepository' (OnClassCondition)
+      - @ConditionalOnBooleanProperty (spring.data.jpa.repositories.enabled=true) matched (OnPropertyCondition)
+      - @ConditionalOnBean (types: javax.sql.DataSource; SearchStrategy: all) found bean 'dataSource'; @ConditionalOnMissingBean (types: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean,org.springframework.data.jpa.repository.config.JpaRepositoryConfigExtension; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   DataSourceAutoConfiguration matched:
+      - @ConditionalOnClass found required classes 'javax.sql.DataSource', 'org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseType' (OnClassCondition)
+      - @ConditionalOnMissingBean (types: io.r2dbc.spi.ConnectionFactory; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   DataSourceAutoConfiguration.PooledDataSourceConfiguration matched:
+      - AnyNestedCondition 1 matched 1 did not; NestedCondition on DataSourceAutoConfiguration.PooledDataSourceCondition.PooledDataSourceAvailable PooledDataSource found supported DataSource; NestedCondition on DataSourceAutoConfiguration.PooledDataSourceCondition.ExplicitType @ConditionalOnProperty (spring.datasource.type) did not find property 'spring.datasource.type' (DataSourceAutoConfiguration.PooledDataSourceCondition)
+      - @ConditionalOnMissingBean (types: javax.sql.DataSource,javax.sql.XADataSource; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   DataSourceAutoConfiguration.PooledDataSourceConfiguration#jdbcConnectionDetails matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.jdbc.autoconfigure.JdbcConnectionDetails; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   DataSourceConfiguration.Hikari matched:
+      - @ConditionalOnClass found required class 'com.zaxxer.hikari.HikariDataSource' (OnClassCondition)
+      - @ConditionalOnProperty (spring.datasource.type=com.zaxxer.hikari.HikariDataSource) matched (OnPropertyCondition)
+      - @ConditionalOnMissingBean (types: javax.sql.DataSource; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   DataSourceInitializationAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.jdbc.datasource.init.DatabasePopulator' (OnClassCondition)
+      - SQL InitializationDatabase Initialization default value is EMBEDDED (OnSqlInitializationCondition)
+      - @ConditionalOnSingleCandidate (types: javax.sql.DataSource; SearchStrategy: all) found a single bean 'dataSource'; @ConditionalOnMissingBean (types: org.springframework.boot.sql.autoconfigure.init.ApplicationScriptDatabaseInitializer; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   DataSourcePoolMetadataProvidersConfiguration.HikariPoolDataSourceMetadataProviderConfiguration matched:
+      - @ConditionalOnClass found required class 'com.zaxxer.hikari.HikariDataSource' (OnClassCondition)
+
+   DataSourceTransactionManagerAutoConfiguration matched:
+      - @ConditionalOnClass found required classes 'javax.sql.DataSource', 'org.springframework.jdbc.core.JdbcTemplate', 'org.springframework.transaction.TransactionManager' (OnClassCondition)
+
+   DataSourceTransactionManagerAutoConfiguration.JdbcTransactionManagerConfiguration matched:
+      - @ConditionalOnSingleCandidate (types: javax.sql.DataSource; SearchStrategy: all) found a single bean 'dataSource' (OnBeanCondition)
+
+   DataWebAutoConfiguration matched:
+      - @ConditionalOnClass found required classes 'org.springframework.data.web.PageableHandlerMethodArgumentResolver', 'org.springframework.web.servlet.config.annotation.WebMvcConfigurer' (OnClassCondition)
+      - found 'session' scope (OnWebApplicationCondition)
+      - @ConditionalOnMissingBean (types: org.springframework.data.web.PageableHandlerMethodArgumentResolver; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   DataWebAutoConfiguration#pageableCustomizer matched:
+      - @ConditionalOnMissingBean (types: org.springframework.data.web.config.PageableHandlerMethodArgumentResolverCustomizer; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   DataWebAutoConfiguration#sortCustomizer matched:
+      - @ConditionalOnMissingBean (types: org.springframework.data.web.config.SortHandlerMethodArgumentResolverCustomizer; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   DataWebAutoConfiguration#springDataWebSettings matched:
+      - @ConditionalOnMissingBean (types: org.springframework.data.web.config.SpringDataWebSettings; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   DispatcherServletAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.web.servlet.DispatcherServlet' (OnClassCondition)
+      - found 'session' scope (OnWebApplicationCondition)
+
+   DispatcherServletAutoConfiguration.DispatcherServletConfiguration matched:
+      - @ConditionalOnClass found required class 'jakarta.servlet.ServletRegistration' (OnClassCondition)
+      - Default DispatcherServlet did not find dispatcher servlet beans (DispatcherServletAutoConfiguration.DefaultDispatcherServletCondition)
+
+   DispatcherServletAutoConfiguration.DispatcherServletRegistrationConfiguration matched:
+      - @ConditionalOnClass found required class 'jakarta.servlet.ServletRegistration' (OnClassCondition)
+      - DispatcherServlet Registration did not find servlet registration bean (DispatcherServletAutoConfiguration.DispatcherServletRegistrationCondition)
+
+   DispatcherServletAutoConfiguration.DispatcherServletRegistrationConfiguration#dispatcherServletRegistration matched:
+      - @ConditionalOnBean (names: dispatcherServlet types: org.springframework.web.servlet.DispatcherServlet; SearchStrategy: all) found bean 'dispatcherServlet' (OnBeanCondition)
+
+   ErrorMvcAutoConfiguration matched:
+      - @ConditionalOnClass found required classes 'jakarta.servlet.Servlet', 'org.springframework.web.servlet.DispatcherServlet' (OnClassCondition)
+      - found 'session' scope (OnWebApplicationCondition)
+
+   ErrorMvcAutoConfiguration#basicErrorController matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.webmvc.error.ErrorController; SearchStrategy: current) did not find any beans (OnBeanCondition)
+
+   ErrorMvcAutoConfiguration#errorAttributes matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.webmvc.error.ErrorAttributes; SearchStrategy: current) did not find any beans (OnBeanCondition)
+
+   ErrorMvcAutoConfiguration.DefaultErrorViewResolverConfiguration#conventionErrorViewResolver matched:
+      - @ConditionalOnBean (types: org.springframework.web.servlet.DispatcherServlet; SearchStrategy: all) found bean 'dispatcherServlet'; @ConditionalOnMissingBean (types: org.springframework.boot.webmvc.autoconfigure.error.ErrorViewResolver; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   ErrorMvcAutoConfiguration.WhitelabelErrorViewConfiguration matched:
+      - @ConditionalOnBooleanProperty (spring.web.error.whitelabel.enabled=true) matched (OnPropertyCondition)
+      - ErrorTemplate Missing did not find error template view (ErrorMvcAutoConfiguration.ErrorTemplateMissingCondition)
+
+   ErrorMvcAutoConfiguration.WhitelabelErrorViewConfiguration#beanNameViewResolver matched:
+      - @ConditionalOnMissingBean (types: org.springframework.web.servlet.view.BeanNameViewResolver; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   ErrorMvcAutoConfiguration.WhitelabelErrorViewConfiguration#defaultErrorView matched:
+      - @ConditionalOnMissingBean (names: error; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   HibernateJpaAutoConfiguration matched:
+      - @ConditionalOnClass found required classes 'org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean', 'jakarta.persistence.EntityManager', 'org.hibernate.engine.spi.SessionImplementor' (OnClassCondition)
+
+   HibernateJpaConfiguration matched:
+      - @ConditionalOnSingleCandidate (types: javax.sql.DataSource; SearchStrategy: all) found a single bean 'dataSource' (OnBeanCondition)
+
+   HttpEncodingAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.web.filter.CharacterEncodingFilter' (OnClassCondition)
+      - found 'session' scope (OnWebApplicationCondition)
+      - @ConditionalOnBooleanProperty (spring.servlet.encoding.enabled=true) matched (OnPropertyCondition)
+
+   HttpEncodingAutoConfiguration#characterEncodingFilter matched:
+      - @ConditionalOnMissingBean (types: org.springframework.web.filter.CharacterEncodingFilter; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   HttpMessageConvertersAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.http.converter.HttpMessageConverter' (OnClassCondition)
+      - NoneNestedConditions 0 matched 1 did not; NestedCondition on HttpMessageConvertersAutoConfiguration.NotReactiveWebApplicationCondition.ReactiveWebApplication did not find reactive web application classes (HttpMessageConvertersAutoConfiguration.NotReactiveWebApplicationCondition)
+
+   HttpMessageConvertersAutoConfiguration.StringHttpMessageConverterConfiguration#stringHttpMessageConvertersCustomizer matched:
+      - @ConditionalOnMissingBean (types: org.springframework.http.converter.StringHttpMessageConverter; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   JacksonAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'tools.jackson.databind.json.JsonMapper' (OnClassCondition)
+
+   JacksonAutoConfiguration#jacksonJsonMapper matched:
+      - @ConditionalOnMissingBean (types: tools.jackson.databind.json.JsonMapper; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   JacksonAutoConfiguration#jsonMapperBuilder matched:
+      - @ConditionalOnMissingBean (types: tools.jackson.databind.json.JsonMapper$Builder; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   JacksonAutoConfiguration.JsonProblemDetailsConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.http.ProblemDetail' (OnClassCondition)
+
+   JacksonHttpMessageConvertersConfiguration.JacksonJsonHttpMessageConverterConfiguration matched:
+      - @ConditionalOnClass found required class 'tools.jackson.databind.json.JsonMapper' (OnClassCondition)
+      - @ConditionalOnProperty (spring.http.converters.preferred-json-mapper=jackson) matched (OnPropertyCondition)
+      - @ConditionalOnBean (types: tools.jackson.databind.json.JsonMapper; SearchStrategy: all) found bean 'jacksonJsonMapper' (OnBeanCondition)
+
+   JacksonHttpMessageConvertersConfiguration.JacksonJsonHttpMessageConverterConfiguration#jacksonJsonHttpMessageConvertersCustomizer matched:
+      - @ConditionalOnMissingBean (types: org.springframework.http.converter.json.JacksonJsonHttpMessageConverter ignored: org.springframework.hateoas.server.mvc.TypeConstrainedJacksonJsonHttpMessageConverter,org.springframework.data.rest.webmvc.alps.AlpsJacksonJsonHttpMessageConverter; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   JdbcClientAutoConfiguration matched:
+      - @ConditionalOnSingleCandidate (types: org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate; SearchStrategy: all) found a single bean 'namedParameterJdbcTemplate'; @ConditionalOnMissingBean (types: org.springframework.jdbc.core.simple.JdbcClient; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   JdbcTemplateAutoConfiguration matched:
+      - @ConditionalOnClass found required classes 'javax.sql.DataSource', 'org.springframework.jdbc.core.JdbcTemplate' (OnClassCondition)
+      - @ConditionalOnSingleCandidate (types: javax.sql.DataSource; SearchStrategy: all) found a single bean 'dataSource' (OnBeanCondition)
+
+   JdbcTemplateConfiguration matched:
+      - @ConditionalOnMissingBean (types: org.springframework.jdbc.core.JdbcOperations; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   JpaBaseConfiguration#entityManagerFactory matched:
+      - @ConditionalOnMissingBean (types: org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean,jakarta.persistence.EntityManagerFactory; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   JpaBaseConfiguration#entityManagerFactoryBuilder matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.jpa.EntityManagerFactoryBuilder; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   JpaBaseConfiguration#jpaVendorAdapter matched:
+      - @ConditionalOnMissingBean (types: org.springframework.orm.jpa.JpaVendorAdapter; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   JpaBaseConfiguration#transactionManager matched:
+      - @ConditionalOnMissingBean (types: org.springframework.transaction.TransactionManager; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   JpaBaseConfiguration.JpaWebConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.web.servlet.config.annotation.WebMvcConfigurer' (OnClassCondition)
+      - found 'session' scope (OnWebApplicationCondition)
+      - @ConditionalOnBooleanProperty (spring.jpa.open-in-view=true) matched (OnPropertyCondition)
+      - @ConditionalOnMissingBean (types: org.springframework.orm.jpa.support.OpenEntityManagerInViewInterceptor,org.springframework.orm.jpa.support.OpenEntityManagerInViewFilter; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   JpaBaseConfiguration.PersistenceManagedTypesConfiguration matched:
+      - @ConditionalOnMissingBean (types: org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean,jakarta.persistence.EntityManagerFactory; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   JpaBaseConfiguration.PersistenceManagedTypesConfiguration#persistenceManagedTypes matched:
+      - @ConditionalOnMissingBean (types: org.springframework.orm.jpa.persistenceunit.PersistenceManagedTypes; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   JtaAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'jakarta.transaction.Transaction' (OnClassCondition)
+      - @ConditionalOnBooleanProperty (spring.jta.enabled=true) matched (OnPropertyCondition)
+
+   LifecycleAutoConfiguration#defaultLifecycleProcessor matched:
+      - @ConditionalOnMissingBean (names: lifecycleProcessor; SearchStrategy: current) did not find any beans (OnBeanCondition)
+
+   MultipartAutoConfiguration matched:
+      - @ConditionalOnClass found required classes 'jakarta.servlet.Servlet', 'org.springframework.web.multipart.support.StandardServletMultipartResolver', 'jakarta.servlet.MultipartConfigElement' (OnClassCondition)
+      - found 'session' scope (OnWebApplicationCondition)
+      - @ConditionalOnBooleanProperty (spring.servlet.multipart.enabled=true) matched (OnPropertyCondition)
+
+   MultipartAutoConfiguration#multipartConfigElement matched:
+      - @ConditionalOnMissingBean (types: jakarta.servlet.MultipartConfigElement; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   MultipartAutoConfiguration#multipartResolver matched:
+      - @ConditionalOnMissingBean (types: org.springframework.web.multipart.MultipartResolver; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   NamedParameterJdbcTemplateConfiguration matched:
+      - @ConditionalOnSingleCandidate (types: org.springframework.jdbc.core.JdbcTemplate; SearchStrategy: all) found a single bean 'jdbcTemplate'; @ConditionalOnMissingBean (types: org.springframework.jdbc.core.namedparam.NamedParameterJdbcOperations; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   PersistenceExceptionTranslationAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.dao.annotation.PersistenceExceptionTranslationPostProcessor' (OnClassCondition)
+
+   PersistenceExceptionTranslationAutoConfiguration#persistenceExceptionTranslationPostProcessor matched:
+      - @ConditionalOnBooleanProperty (spring.persistence.exceptiontranslation.enabled=true) matched (OnPropertyCondition)
+      - @ConditionalOnMissingBean (types: org.springframework.dao.annotation.PersistenceExceptionTranslationPostProcessor; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   PropertyPlaceholderAutoConfiguration#propertySourcesPlaceholderConfigurer matched:
+      - @ConditionalOnMissingBean (types: org.springframework.context.support.PropertySourcesPlaceholderConfigurer; SearchStrategy: current) did not find any beans (OnBeanCondition)
+
+   SecurityAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.security.authentication.DefaultAuthenticationEventPublisher' (OnClassCondition)
+
+   SecurityAutoConfiguration#authenticationEventPublisher matched:
+      - @ConditionalOnMissingBean (types: org.springframework.security.authentication.AuthenticationEventPublisher; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   SecurityFilterAutoConfiguration matched:
+      - @ConditionalOnClass found required classes 'org.springframework.security.web.context.AbstractSecurityWebApplicationInitializer', 'org.springframework.security.config.http.SessionCreationPolicy' (OnClassCondition)
+      - found 'session' scope (OnWebApplicationCondition)
+
+   SecurityFilterAutoConfiguration#securityFilterChainRegistration matched:
+      - @ConditionalOnBean (names: springSecurityFilterChain; SearchStrategy: all) found bean 'springSecurityFilterChain' (OnBeanCondition)
+
+   ServletWebSecurityAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.security.config.annotation.web.configuration.EnableWebSecurity' (OnClassCondition)
+      - found 'session' scope (OnWebApplicationCondition)
+
+   ServletWebSecurityAutoConfiguration.EnableWebSecurityConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.security.config.annotation.web.configuration.EnableWebSecurity' (OnClassCondition)
+      - @ConditionalOnMissingBean (names: springSecurityFilterChain; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   ServletWebSecurityAutoConfiguration.PathPatternRequestMatcherBuilderConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.boot.webmvc.autoconfigure.DispatcherServletPath' (OnClassCondition)
+      - @ConditionalOnBean (types: org.springframework.boot.webmvc.autoconfigure.DispatcherServletPath; SearchStrategy: all) found bean 'dispatcherServletRegistration' (OnBeanCondition)
+
+   ServletWebSecurityAutoConfiguration.PathPatternRequestMatcherBuilderConfiguration#pathPatternRequestMatcherBuilder matched:
+      - @ConditionalOnMissingBean (types: org.springframework.security.web.servlet.util.matcher.PathPatternRequestMatcher$Builder; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   SslAutoConfiguration#sslBundleRegistry matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.ssl.SslBundleRegistry,org.springframework.boot.ssl.SslBundles; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   TaskExecutionAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor' (OnClassCondition)
+
+   TaskExecutorConfigurations.AsyncConfigurerConfiguration matched:
+      - @ConditionalOnMissingBean (types: org.springframework.scheduling.annotation.AsyncConfigurer; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   TaskExecutorConfigurations.SimpleAsyncTaskExecutorBuilderConfiguration#simpleAsyncTaskExecutorBuilder matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.task.SimpleAsyncTaskExecutorBuilder; SearchStrategy: all) did not find any beans (OnBeanCondition)
+      - @ConditionalOnThreading found PLATFORM (OnThreadingCondition)
+
+   TaskExecutorConfigurations.TaskExecutorConfiguration matched:
+      - AnyNestedCondition 1 matched 1 did not; NestedCondition on TaskExecutorConfigurations.OnExecutorCondition.ModelCondition @ConditionalOnProperty (spring.task.execution.mode=force) did not find property 'spring.task.execution.mode'; NestedCondition on TaskExecutorConfigurations.OnExecutorCondition.ExecutorBeanCondition @ConditionalOnMissingBean (types: java.util.concurrent.Executor; SearchStrategy: all) did not find any beans (TaskExecutorConfigurations.OnExecutorCondition)
+
+   TaskExecutorConfigurations.TaskExecutorConfiguration#applicationTaskExecutor matched:
+      - @ConditionalOnThreading found PLATFORM (OnThreadingCondition)
+
+   TaskExecutorConfigurations.ThreadPoolTaskExecutorBuilderConfiguration#threadPoolTaskExecutorBuilder matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.task.ThreadPoolTaskExecutorBuilder; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   TaskSchedulingAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler' (OnClassCondition)
+
+   TaskSchedulingConfigurations.SimpleAsyncTaskSchedulerBuilderConfiguration#simpleAsyncTaskSchedulerBuilder matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.task.SimpleAsyncTaskSchedulerBuilder; SearchStrategy: all) did not find any beans (OnBeanCondition)
+      - @ConditionalOnThreading found PLATFORM (OnThreadingCondition)
+
+   TaskSchedulingConfigurations.ThreadPoolTaskSchedulerBuilderConfiguration#threadPoolTaskSchedulerBuilder matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.task.ThreadPoolTaskSchedulerBuilder; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   TomcatServletWebServerAutoConfiguration matched:
+      - @ConditionalOnClass found required classes 'jakarta.servlet.ServletRequest', 'org.apache.catalina.startup.Tomcat', 'org.apache.coyote.UpgradeProtocol', 'org.springframework.boot.tomcat.servlet.TomcatServletWebServerFactory' (OnClassCondition)
+      - found 'session' scope (OnWebApplicationCondition)
+
+   TomcatServletWebServerAutoConfiguration#tomcatServletWebServerFactory matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.web.server.servlet.ServletWebServerFactory; SearchStrategy: current) did not find any beans (OnBeanCondition)
+
+   TomcatWebServerConfiguration matched:
+      - @ConditionalOnWarDeployment the application is not deployed as a WAR file. (OnWarDeploymentCondition)
+
+   TomcatWebServerConfiguration.TomcatWebSocketConfiguration matched:
+      - @ConditionalOnClass found required class 'org.apache.tomcat.websocket.server.WsSci' (OnClassCondition)
+
+   TransactionAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.transaction.PlatformTransactionManager' (OnClassCondition)
+
+   TransactionAutoConfiguration.EnableTransactionManagementConfiguration matched:
+      - @ConditionalOnBean (types: org.springframework.transaction.TransactionManager; SearchStrategy: all) found bean 'transactionManager'; @ConditionalOnMissingBean (types: org.springframework.transaction.annotation.AbstractTransactionManagementConfiguration; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   TransactionAutoConfiguration.EnableTransactionManagementConfiguration.CglibAutoProxyConfiguration matched:
+      - @ConditionalOnBooleanProperty (spring.aop.proxy-target-class=true) matched (OnPropertyCondition)
+
+   TransactionAutoConfiguration.TransactionTemplateConfiguration matched:
+      - @ConditionalOnSingleCandidate (types: org.springframework.transaction.PlatformTransactionManager; SearchStrategy: all) found a single bean 'transactionManager' (OnBeanCondition)
+
+   TransactionAutoConfiguration.TransactionTemplateConfiguration#transactionTemplate matched:
+      - @ConditionalOnMissingBean (types: org.springframework.transaction.support.TransactionOperations; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   TransactionManagerCustomizationAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.transaction.PlatformTransactionManager' (OnClassCondition)
+
+   TransactionManagerCustomizationAutoConfiguration#platformTransactionManagerCustomizers matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.transaction.autoconfigure.TransactionManagerCustomizers; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   ValidationAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'jakarta.validation.executable.ExecutableValidator' (OnClassCondition)
+      - @ConditionalOnResource found location classpath:META-INF/services/jakarta.validation.spi.ValidationProvider (OnResourceCondition)
+
+   ValidationAutoConfiguration#defaultValidator matched:
+      - @ConditionalOnMissingBean (types: jakarta.validation.Validator; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   ValidationAutoConfiguration#methodValidationPostProcessor matched:
+      - @ConditionalOnMissingBean (types: org.springframework.validation.beanvalidation.MethodValidationPostProcessor; SearchStrategy: current) did not find any beans (OnBeanCondition)
+
+   WebMvcAutoConfiguration matched:
+      - @ConditionalOnClass found required classes 'jakarta.servlet.Servlet', 'org.springframework.web.servlet.DispatcherServlet', 'org.springframework.web.servlet.config.annotation.WebMvcConfigurer' (OnClassCondition)
+      - found 'session' scope (OnWebApplicationCondition)
+      - @ConditionalOnMissingBean (types: org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   WebMvcAutoConfiguration#formContentFilter matched:
+      - @ConditionalOnBooleanProperty (spring.mvc.formcontent.filter.enabled=true) matched (OnPropertyCondition)
+      - @ConditionalOnMissingBean (types: org.springframework.web.filter.FormContentFilter; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   WebMvcAutoConfiguration.EnableWebMvcConfiguration#flashMapManager matched:
+      - @ConditionalOnMissingBean (names: flashMapManager; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   WebMvcAutoConfiguration.EnableWebMvcConfiguration#localeResolver matched:
+      - @ConditionalOnMissingBean (names: localeResolver; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   WebMvcAutoConfiguration.EnableWebMvcConfiguration#viewNameTranslator matched:
+      - @ConditionalOnMissingBean (names: viewNameTranslator; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   WebMvcAutoConfiguration.WebMvcAutoConfigurationAdapter#defaultViewResolver matched:
+      - @ConditionalOnMissingBean (types: org.springframework.web.servlet.view.InternalResourceViewResolver; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   WebMvcAutoConfiguration.WebMvcAutoConfigurationAdapter#requestContextFilter matched:
+      - @ConditionalOnMissingBean (types: org.springframework.web.context.request.RequestContextListener,org.springframework.web.filter.RequestContextFilter; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   WebMvcAutoConfiguration.WebMvcAutoConfigurationAdapter#viewResolver matched:
+      - @ConditionalOnBean (types: org.springframework.web.servlet.ViewResolver; SearchStrategy: all) found beans 'defaultViewResolver', 'beanNameViewResolver', 'mvcViewResolver'; @ConditionalOnMissingBean (names: viewResolver types: org.springframework.web.servlet.view.ContentNegotiatingViewResolver; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+
+Negative matches:
+-----------------
+
+   AopAutoConfiguration.AspectJAutoProxyingConfiguration.JdkDynamicAutoProxyConfiguration:
+      Did not match:
+         - @ConditionalOnBooleanProperty (spring.aop.proxy-target-class=false) did not find property 'spring.aop.proxy-target-class' (OnPropertyCondition)
+
+   AopAutoConfiguration.ClassProxyingConfiguration:
+      Did not match:
+         - @ConditionalOnMissingClass found unwanted class 'org.aspectj.weaver.Advice' (OnClassCondition)
+
+   DataJpaRepositoriesAutoConfiguration#entityManagerFactoryBootstrapExecutorCustomizer:
+      Did not match:
+         - AnyNestedCondition 0 matched 2 did not; NestedCondition on DataJpaRepositoriesAutoConfiguration.BootstrapExecutorCondition.LazyBootstrapMode @ConditionalOnProperty (spring.data.jpa.repositories.bootstrap-mode=lazy) did not find property 'spring.data.jpa.repositories.bootstrap-mode'; NestedCondition on DataJpaRepositoriesAutoConfiguration.BootstrapExecutorCondition.DeferredBootstrapMode @ConditionalOnProperty (spring.data.jpa.repositories.bootstrap-mode=deferred) did not find property 'spring.data.jpa.repositories.bootstrap-mode' (DataJpaRepositoriesAutoConfiguration.BootstrapExecutorCondition)
+
+   DataRepositoryMetricsAutoConfiguration:
+      Did not match:
+         - @ConditionalOnBean did not find required type 'io.micrometer.core.instrument.MeterRegistry' (OnBeanCondition)
+
+   DataSourceAutoConfiguration.EmbeddedDatabaseConfiguration:
+      Did not match:
+         - EmbeddedDataSource spring.datasource.url is set (DataSourceAutoConfiguration.EmbeddedDatabaseCondition)
+
+   DataSourceCheckpointRestoreConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.crac.Resource' (OnClassCondition)
+
+   DataSourceConfiguration.Dbcp2:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.apache.commons.dbcp2.BasicDataSource' (OnClassCondition)
+
+   DataSourceConfiguration.Generic:
+      Did not match:
+         - @ConditionalOnProperty (spring.datasource.type) did not find property 'spring.datasource.type' (OnPropertyCondition)
+
+   DataSourceConfiguration.OracleUcp:
+      Did not match:
+         - @ConditionalOnClass did not find required classes 'oracle.ucp.jdbc.PoolDataSourceImpl', 'oracle.jdbc.OracleConnection' (OnClassCondition)
+
+   DataSourceConfiguration.Tomcat:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.apache.tomcat.jdbc.pool.DataSource' (OnClassCondition)
+
+   DataSourceHealthContributorAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.boot.health.autoconfigure.contributor.ConditionalOnEnabledHealthIndicator' (OnClassCondition)
+
+   DataSourceJmxConfiguration:
+      Did not match:
+         - @ConditionalOnBooleanProperty (spring.jmx.enabled=true) did not find property 'spring.jmx.enabled' (OnPropertyCondition)
+
+   DataSourcePoolMetadataProvidersConfiguration.CommonsDbcp2PoolDataSourceMetadataProviderConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.apache.commons.dbcp2.BasicDataSource' (OnClassCondition)
+
+   DataSourcePoolMetadataProvidersConfiguration.OracleUcpPoolDataSourceMetadataProviderConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required classes 'oracle.ucp.jdbc.PoolDataSource', 'oracle.jdbc.OracleConnection' (OnClassCondition)
+
+   DataSourcePoolMetadataProvidersConfiguration.TomcatDataSourcePoolMetadataProviderConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.apache.tomcat.jdbc.pool.DataSource' (OnClassCondition)
+
+   DataSourcePoolMetricsAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'io.micrometer.core.instrument.MeterRegistry' (OnClassCondition)
+
+   DataSourceTransactionManagerAutoConfiguration.JdbcTransactionManagerConfiguration#transactionManager:
+      Did not match:
+         - @ConditionalOnMissingBean (types: org.springframework.transaction.TransactionManager; SearchStrategy: all) found beans of type 'org.springframework.transaction.TransactionManager' transactionManager (OnBeanCondition)
+
+   DispatcherServletAutoConfiguration.DispatcherServletConfiguration#multipartResolver:
+      Did not match:
+         - @ConditionalOnBean (types: org.springframework.web.multipart.MultipartResolver; SearchStrategy: all) did not find any beans of type org.springframework.web.multipart.MultipartResolver (OnBeanCondition)
+
+   GsonHttpMessageConvertersConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.google.gson.Gson' (OnClassCondition)
+
+   HibernateMetricsAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'io.micrometer.core.instrument.MeterRegistry' (OnClassCondition)
+
+   Jackson2HttpMessageConvertersConfiguration.MappingJackson2HttpMessageConverterConfiguration:
+      Did not match:
+         - AnyNestedCondition 0 matched 2 did not; NestedCondition on Jackson2HttpMessageConvertersConfiguration.PreferJackson2OrJacksonUnavailableCondition.JacksonUnavailable @ConditionalOnMissingBean (types: org.springframework.boot.http.converter.autoconfigure.JacksonHttpMessageConvertersConfiguration$JacksonJsonHttpMessageConvertersCustomizer; SearchStrategy: all) found beans of type 'org.springframework.boot.http.converter.autoconfigure.JacksonHttpMessageConvertersConfiguration$JacksonJsonHttpMessageConvertersCustomizer' jacksonJsonHttpMessageConvertersCustomizer; NestedCondition on Jackson2HttpMessageConvertersConfiguration.PreferJackson2OrJacksonUnavailableCondition.Jackson2Preferred @ConditionalOnProperty (spring.http.converters.preferred-json-mapper=jackson2) did not find property 'spring.http.converters.preferred-json-mapper' (Jackson2HttpMessageConvertersConfiguration.PreferJackson2OrJacksonUnavailableCondition)
+      Matched:
+         - @ConditionalOnClass found required class 'com.fasterxml.jackson.databind.ObjectMapper' (OnClassCondition)
+
+   Jackson2HttpMessageConvertersConfiguration.MappingJackson2XmlHttpMessageConverterConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.fasterxml.jackson.dataformat.xml.XmlMapper' (OnClassCondition)
+
+   JacksonAutoConfiguration.CborConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'tools.jackson.dataformat.cbor.CBORMapper' (OnClassCondition)
+
+   JacksonAutoConfiguration.XmlConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'tools.jackson.dataformat.xml.XmlMapper' (OnClassCondition)
+
+   JacksonHttpMessageConvertersConfiguration.JacksonXmlHttpMessageConverterConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'tools.jackson.dataformat.xml.XmlMapper' (OnClassCondition)
+
+   JmxAutoConfiguration:
+      Did not match:
+         - @ConditionalOnBooleanProperty (spring.jmx.enabled=true) did not find property 'spring.jmx.enabled' (OnPropertyCondition)
+      Matched:
+         - @ConditionalOnClass found required class 'org.springframework.jmx.export.MBeanExporter' (OnClassCondition)
+
+   JndiDataSourceAutoConfiguration:
+      Did not match:
+         - @ConditionalOnProperty (spring.datasource.jndi-name) did not find property 'spring.datasource.jndi-name' (OnPropertyCondition)
+      Matched:
+         - @ConditionalOnClass found required classes 'javax.sql.DataSource', 'org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseType' (OnClassCondition)
+
+   JndiJtaConfiguration:
+      Did not match:
+         - @ConditionalOnJndi JNDI environment is not available (OnJndiCondition)
+      Matched:
+         - @ConditionalOnClass found required class 'org.springframework.transaction.jta.JtaTransactionManager' (OnClassCondition)
+
+   JsonbHttpMessageConvertersConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'jakarta.json.bind.Jsonb' (OnClassCondition)
+
+   KotlinSerializationHttpMessageConvertersConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required classes 'kotlinx.serialization.Serializable', 'kotlinx.serialization.json.Json' (OnClassCondition)
+
+   ManagementWebSecurityAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.boot.actuate.autoconfigure.endpoint.web.WebEndpointAutoConfiguration' (OnClassCondition)
+
+   MessageSourceAutoConfiguration:
+      Did not match:
+         - ResourceBundle did not find bundle with basename messages (MessageSourceAutoConfiguration.ResourceBundleCondition)
+
+   ProjectInfoAutoConfiguration#buildProperties:
+      Did not match:
+         - @ConditionalOnResource did not find resource '${spring.info.build.location:classpath:META-INF/build-info.properties}' (OnResourceCondition)
+
+   ProjectInfoAutoConfiguration#gitProperties:
+      Did not match:
+         - GitResource did not find git info at classpath:git.properties (ProjectInfoAutoConfiguration.GitResourceAvailableCondition)
+
+   RSocketSecurityAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.boot.rsocket.server.RSocketServerCustomizer' (OnClassCondition)
+
+   ReactiveManagementWebSecurityAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.boot.actuate.autoconfigure.endpoint.web.WebEndpointAutoConfiguration' (OnClassCondition)
+
+   ReactiveUserDetailsServiceAutoConfiguration:
+      Did not match:
+         - AnyNestedCondition 0 matched 2 did not; NestedCondition on ReactiveUserDetailsServiceAutoConfiguration.RSocketEnabledOrReactiveWebApplication.ReactiveWebApplicationCondition did not find reactive web application classes; NestedCondition on ReactiveUserDetailsServiceAutoConfiguration.RSocketEnabledOrReactiveWebApplication.RSocketSecurityEnabledCondition @ConditionalOnBean (types: org.springframework.messaging.rsocket.annotation.support.RSocketMessageHandler; SearchStrategy: all) did not find any beans of type org.springframework.messaging.rsocket.annotation.support.RSocketMessageHandler (ReactiveUserDetailsServiceAutoConfiguration.RSocketEnabledOrReactiveWebApplication)
+      Matched:
+         - @ConditionalOnClass found required class 'org.springframework.security.authentication.ReactiveAuthenticationManager' (OnClassCondition)
+         - AnyNestedCondition 1 matched 2 did not; NestedCondition on MissingAlternativeUserDetailsManagerOrUserPropertiesConfigured.PasswordConfigured @ConditionalOnProperty (spring.security.user.password) did not find property 'spring.security.user.password'; NestedCondition on MissingAlternativeUserDetailsManagerOrUserPropertiesConfigured.NameConfigured @ConditionalOnProperty (spring.security.user.name) did not find property 'spring.security.user.name'; NestedCondition on MissingAlternativeUserDetailsManagerOrUserPropertiesConfigured.MissingAlternative @ConditionalOnMissingClass did not find unwanted classes 'org.springframework.security.oauth2.client.registration.ClientRegistrationRepository', 'org.springframework.security.oauth2.server.resource.introspection.OpaqueTokenIntrospector', 'org.springframework.security.saml2.provider.service.registration.RelyingPartyRegistrationRepository' (MissingAlternativeUserDetailsManagerOrUserPropertiesConfigured)
+
+   ReactiveWebSecurityAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'reactor.core.publisher.Flux' (OnClassCondition)
+
+   SecurityAutoConfiguration.SecurityDataConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.security.data.repository.query.SecurityEvaluationContextExtension' (OnClassCondition)
+
+   ServletHttpExchangesAutoConfiguration:
+      Did not match:
+         - @ConditionalOnBean did not find required type 'org.springframework.boot.actuate.web.exchanges.HttpExchangeRepository' (OnBeanCondition)
+
+   ServletManagementContextAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.boot.actuate.autoconfigure.endpoint.web.WebEndpointProperties' (OnClassCondition)
+
+   ServletMappingsAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.boot.actuate.autoconfigure.endpoint.condition.ConditionalOnAvailableEndpoint' (OnClassCondition)
+
+   ServletWebSecurityAutoConfiguration.SecurityFilterChainConfiguration:
+      Did not match:
+         - AllNestedConditions 1 matched 1 did not; NestedCondition on DefaultWebSecurityCondition.Beans @ConditionalOnMissingBean (types: org.springframework.security.web.SecurityFilterChain; SearchStrategy: all) found beans of type 'org.springframework.security.web.SecurityFilterChain' securityFilterChain; NestedCondition on DefaultWebSecurityCondition.Classes @ConditionalOnClass found required classes 'org.springframework.security.web.SecurityFilterChain', 'org.springframework.security.config.annotation.web.builders.HttpSecurity' (DefaultWebSecurityCondition)
+
+   ServletWebServerConfiguration#forwardedHeaderFilter:
+      Did not match:
+         - @ConditionalOnProperty (server.forward-headers-strategy=framework) did not find property 'server.forward-headers-strategy' (OnPropertyCondition)
+
+   SpringApplicationAdminJmxAutoConfiguration:
+      Did not match:
+         - @ConditionalOnBooleanProperty (spring.application.admin.enabled=true) did not find property 'spring.application.admin.enabled' (OnPropertyCondition)
+
+   TaskExecutorConfigurations.AsyncConfigurerWrapperConfiguration:
+      Did not match:
+         - @ConditionalOnBean (types: org.springframework.scheduling.annotation.AsyncConfigurer; SearchStrategy: all) did not find any beans of type org.springframework.scheduling.annotation.AsyncConfigurer (OnBeanCondition)
+
+   TaskExecutorConfigurations.SimpleAsyncTaskExecutorBuilderConfiguration#simpleAsyncTaskExecutorBuilderVirtualThreads:
+      Did not match:
+         - @ConditionalOnMissingBean (types: org.springframework.boot.task.SimpleAsyncTaskExecutorBuilder; SearchStrategy: all) found beans of type 'org.springframework.boot.task.SimpleAsyncTaskExecutorBuilder' simpleAsyncTaskExecutorBuilder (OnBeanCondition)
+
+   TaskExecutorConfigurations.TaskExecutorConfiguration#applicationTaskExecutorVirtualThreads:
+      Did not match:
+         - @ConditionalOnThreading did not find VIRTUAL (OnThreadingCondition)
+
+   TaskSchedulingAutoConfiguration#scheduledBeanLazyInitializationExcludeFilter:
+      Did not match:
+         - @ConditionalOnBean (names: org.springframework.scheduling.config.internalScheduledAnnotationProcessor; SearchStrategy: all) did not find any beans named org.springframework.scheduling.config.internalScheduledAnnotationProcessor (OnBeanCondition)
+
+   TaskSchedulingConfigurations.SimpleAsyncTaskSchedulerBuilderConfiguration#simpleAsyncTaskSchedulerBuilderVirtualThreads:
+      Did not match:
+         - @ConditionalOnMissingBean (types: org.springframework.boot.task.SimpleAsyncTaskSchedulerBuilder; SearchStrategy: all) found beans of type 'org.springframework.boot.task.SimpleAsyncTaskSchedulerBuilder' simpleAsyncTaskSchedulerBuilder (OnBeanCondition)
+
+   TaskSchedulingConfigurations.TaskSchedulerConfiguration:
+      Did not match:
+         - @ConditionalOnBean (names: org.springframework.scheduling.config.internalScheduledAnnotationProcessor; SearchStrategy: all) did not find any beans named org.springframework.scheduling.config.internalScheduledAnnotationProcessor (OnBeanCondition)
+
+   TomcatMetricsAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'io.micrometer.core.instrument.binder.tomcat.TomcatMetrics' (OnClassCondition)
+
+   TomcatReactiveManagementContextAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.boot.actuate.autoconfigure.web.server.ManagementContextFactory' (OnClassCondition)
+
+   TomcatReactiveWebServerAutoConfiguration:
+      Did not match:
+         - @ConditionalOnWebApplication did not find reactive web application classes (OnWebApplicationCondition)
+
+   TomcatServletManagementContextAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.boot.actuate.autoconfigure.web.server.ManagementContextFactory' (OnClassCondition)
+
+   TomcatServletWebServerAutoConfiguration#tomcatForwardedHeaderFilterCustomizer:
+      Did not match:
+         - @ConditionalOnProperty (server.forward-headers-strategy=framework) did not find property 'server.forward-headers-strategy' (OnPropertyCondition)
+
+   TomcatWebServerConfiguration#tomcatVirtualThreadsProtocolHandlerCustomizer:
+      Did not match:
+         - @ConditionalOnThreading did not find VIRTUAL (OnThreadingCondition)
+
+   TransactionAutoConfiguration#transactionalOperator:
+      Did not match:
+         - @ConditionalOnSingleCandidate (types: org.springframework.transaction.ReactiveTransactionManager; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   TransactionAutoConfiguration.AspectJTransactionManagementConfiguration:
+      Did not match:
+         - @ConditionalOnBean (types: org.springframework.transaction.aspectj.AbstractTransactionAspect; SearchStrategy: all) did not find any beans of type org.springframework.transaction.aspectj.AbstractTransactionAspect (OnBeanCondition)
+
+   TransactionAutoConfiguration.EnableTransactionManagementConfiguration.JdkDynamicAutoProxyConfiguration:
+      Did not match:
+         - @ConditionalOnBooleanProperty (spring.aop.proxy-target-class=false) did not find property 'spring.aop.proxy-target-class' (OnPropertyCondition)
+
+   UserDetailsServiceAutoConfiguration:
+      Did not match:
+         - @ConditionalOnMissingBean (types: org.springframework.security.authentication.AuthenticationManager,org.springframework.security.authentication.AuthenticationProvider,org.springframework.security.core.userdetails.UserDetailsService,org.springframework.security.authentication.AuthenticationManagerResolver,org.springframework.security.oauth2.jwt.JwtDecoder; SearchStrategy: all) found beans of type 'org.springframework.security.authentication.AuthenticationManager' authenticationManager and found beans of type 'org.springframework.security.core.userdetails.UserDetailsService' userDetailsServiceImpl and found beans of type 'org.springframework.security.authentication.AuthenticationProvider' authenticationProvider (OnBeanCondition)
+      Matched:
+         - @ConditionalOnClass found required class 'org.springframework.security.authentication.AuthenticationManager' (OnClassCondition)
+         - found 'session' scope (OnWebApplicationCondition)
+         - AnyNestedCondition 1 matched 2 did not; NestedCondition on MissingAlternativeUserDetailsManagerOrUserPropertiesConfigured.PasswordConfigured @ConditionalOnProperty (spring.security.user.password) did not find property 'spring.security.user.password'; NestedCondition on MissingAlternativeUserDetailsManagerOrUserPropertiesConfigured.NameConfigured @ConditionalOnProperty (spring.security.user.name) did not find property 'spring.security.user.name'; NestedCondition on MissingAlternativeUserDetailsManagerOrUserPropertiesConfigured.MissingAlternative @ConditionalOnMissingClass did not find unwanted classes 'org.springframework.security.oauth2.client.registration.ClientRegistrationRepository', 'org.springframework.security.oauth2.server.resource.introspection.OpaqueTokenIntrospector', 'org.springframework.security.saml2.provider.service.registration.RelyingPartyRegistrationRepository' (MissingAlternativeUserDetailsManagerOrUserPropertiesConfigured)
+
+   WebMvcAutoConfiguration#hiddenHttpMethodFilter:
+      Did not match:
+         - @ConditionalOnBooleanProperty (spring.mvc.hiddenmethod.filter.enabled=true) did not find property 'spring.mvc.hiddenmethod.filter.enabled' (OnPropertyCondition)
+
+   WebMvcAutoConfiguration.ProblemDetailsErrorHandlingConfiguration:
+      Did not match:
+         - @ConditionalOnBooleanProperty (spring.mvc.problemdetails.enabled=true) did not find property 'spring.mvc.problemdetails.enabled' (OnPropertyCondition)
+
+   WebMvcAutoConfiguration.ResourceChainCustomizerConfiguration:
+      Did not match:
+         - @ConditionalOnEnabledResourceChain did not find class org.webjars.WebJarVersionLocator (OnEnabledResourceChainCondition)
+
+   WebMvcAutoConfiguration.WebMvcAutoConfigurationAdapter#beanNameViewResolver:
+      Did not match:
+         - @ConditionalOnMissingBean (types: org.springframework.web.servlet.view.BeanNameViewResolver; SearchStrategy: all) found beans of type 'org.springframework.web.servlet.view.BeanNameViewResolver' beanNameViewResolver (OnBeanCondition)
+
+   WebMvcHealthEndpointExtensionAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.boot.health.actuate.endpoint.HealthEndpoint' (OnClassCondition)
+
+   WebMvcMappingsAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.boot.actuate.autoconfigure.endpoint.condition.ConditionalOnAvailableEndpoint' (OnClassCondition)
+
+   WebMvcObservationAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.boot.micrometer.observation.autoconfigure.ObservationProperties' (OnClassCondition)
+
+   XADataSourceAutoConfiguration:
+      Did not match:
+         - @ConditionalOnBean (types: org.springframework.boot.jdbc.XADataSourceWrapper; SearchStrategy: all) did not find any beans of type org.springframework.boot.jdbc.XADataSourceWrapper (OnBeanCondition)
+      Matched:
+         - @ConditionalOnClass found required classes 'javax.sql.DataSource', 'jakarta.transaction.TransactionManager', 'org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseType' (OnClassCondition)
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    org.springframework.boot.autoconfigure.context.ConfigurationPropertiesAutoConfiguration
+
+    org.springframework.boot.autoconfigure.ssl.SslAutoConfiguration
+
+    org.springframework.boot.autoconfigure.context.LifecycleAutoConfiguration
+
+    org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration
+
+    org.springframework.boot.autoconfigure.availability.ApplicationAvailabilityAutoConfiguration
+
+    org.springframework.boot.autoconfigure.info.ProjectInfoAutoConfiguration
+
+
+
+2026-05-07T20:52:37.751+02:00  INFO 31864 --- [backend] [           main] com.auca.backend.BackendApplication      : Started BackendApplication in 5.663 seconds (process running for 6.137)
+2026-05-07T20:52:37.754+02:00 DEBUG 31864 --- [backend] [           main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2026-05-07T20:52:38.145+02:00 DEBUG 31864 --- [backend] [           main] org.hibernate.SQL                        : delete from notifications n1_0
+Hibernate: delete from notifications n1_0
+2026-05-07T20:52:38.159+02:00 DEBUG 31864 --- [backend] [           main] org.hibernate.SQL                        : delete from medical_records mr1_0
+Hibernate: delete from medical_records mr1_0
+2026-05-07T20:52:38.166+02:00 DEBUG 31864 --- [backend] [           main] org.hibernate.SQL                        : delete from appointments a1_0
+Hibernate: delete from appointments a1_0
+2026-05-07T20:52:38.176+02:00 DEBUG 31864 --- [backend] [           main] org.hibernate.SQL                        : delete from doctor_availability da1_0
+Hibernate: delete from doctor_availability da1_0
+2026-05-07T20:52:38.210+02:00 DEBUG 31864 --- [backend] [           main] org.hibernate.SQL                        : with id_cte (id) as materialized (select a1_0.id from admins a1_0 join users a1_1 on a1_0.id=a1_1.id),delete_cte_admins (id) as (delete from admins a1_0 where a1_0.id in (select id.id from id_cte id) returning id),delete_cte_users (id) as (delete from users a1_1 where a1_1.id in (select id.id from id_cte id) returning id) select count(*) from id_cte id
+Hibernate: with id_cte (id) as materialized (select a1_0.id from admins a1_0 join users a1_1 on a1_0.id=a1_1.id),delete_cte_admins (id) as (delete from admins a1_0 where a1_0.id in (select id.id from id_cte id) returning id),delete_cte_users (id) as (delete from users a1_1 where a1_1.id in (select id.id from id_cte id) returning id) select count(*) from id_cte id
+2026-05-07T20:52:38.266+02:00 DEBUG 31864 --- [backend] [           main] org.hibernate.SQL                        : with id_cte (id) as materialized (select d1_0.id from doctors d1_0 join users d1_1 on d1_0.id=d1_1.id),delete_cte_doctors (id) as (delete from doctors d1_0 where d1_0.id in (select id.id from id_cte id) returning id),delete_cte_users (id) as (delete from users d1_1 where d1_1.id in (select id.id from id_cte id) returning id) select count(*) from id_cte id
+Hibernate: with id_cte (id) as materialized (select d1_0.id from doctors d1_0 join users d1_1 on d1_0.id=d1_1.id),delete_cte_doctors (id) as (delete from doctors d1_0 where d1_0.id in (select id.id from id_cte id) returning id),delete_cte_users (id) as (delete from users d1_1 where d1_1.id in (select id.id from id_cte id) returning id) select count(*) from id_cte id
+2026-05-07T20:52:38.271+02:00 DEBUG 31864 --- [backend] [           main] org.hibernate.SQL                        : with id_cte (id) as materialized (select p1_0.id from patients p1_0 join users p1_1 on p1_0.id=p1_1.id),delete_cte_patients (id) as (delete from patients p1_0 where p1_0.id in (select id.id from id_cte id) returning id),delete_cte_users (id) as (delete from users p1_1 where p1_1.id in (select id.id from id_cte id) returning id) select count(*) from id_cte id
+Hibernate: with id_cte (id) as materialized (select p1_0.id from patients p1_0 join users p1_1 on p1_0.id=p1_1.id),delete_cte_patients (id) as (delete from patients p1_0 where p1_0.id in (select id.id from id_cte id) returning id),delete_cte_users (id) as (delete from users p1_1 where p1_1.id in (select id.id from id_cte id) returning id) select count(*) from id_cte id
+2026-05-07T20:52:38.276+02:00 DEBUG 31864 --- [backend] [           main] org.hibernate.SQL                        : with id_cte (id) as materialized (select u1_0.id from users u1_0 left join patients u1_1 on u1_0.id=u1_1.id left join doctors u1_2 on u1_0.id=u1_2.id left join admins u1_3 on u1_0.id=u1_3.id),delete_cte_patients (id) as (delete from patients u1_1 where u1_1.id in (select id.id from id_cte id) returning id),delete_cte_doctors (id) as (delete from doctors u1_2 where u1_2.id in (select id.id from id_cte id) returning id),delete_cte_admins (id) as (delete from admins u1_3 where u1_3.id in (select id.id from id_cte id) returning id),delete_cte_users (id) as (delete from users u1_0 where u1_0.id in (select id.id from id_cte id) returning id) select count(*) from id_cte id
+Hibernate: with id_cte (id) as materialized (select u1_0.id from users u1_0 left join patients u1_1 on u1_0.id=u1_1.id left join doctors u1_2 on u1_0.id=u1_2.id left join admins u1_3 on u1_0.id=u1_3.id),delete_cte_patients (id) as (delete from patients u1_1 where u1_1.id in (select id.id from id_cte id) returning id),delete_cte_doctors (id) as (delete from doctors u1_2 where u1_2.id in (select id.id from id_cte id) returning id),delete_cte_admins (id) as (delete from admins u1_3 where u1_3.id in (select id.id from id_cte id) returning id),delete_cte_users (id) as (delete from users u1_0 where u1_0.id in (select id.id from id_cte id) returning id) select count(*) from id_cte id
+2026-05-07T20:52:39.237+02:00 DEBUG 31864 --- [backend] [           main] org.hibernate.SQL                        : insert into users (email,flagged,fullname,password,phone,role) values (?,?,?,?,?,?)
+Hibernate: insert into users (email,flagged,fullname,password,phone,role) values (?,?,?,?,?,?)
+2026-05-07T20:52:39.262+02:00 DEBUG 31864 --- [backend] [           main] org.hibernate.SQL                        : insert into admins (permission,id) values (?,?)
+Hibernate: insert into admins (permission,id) values (?,?)
+2026-05-07T20:52:39.277+02:00 DEBUG 31864 --- [backend] [           main] org.hibernate.SQL                        : insert into users (email,flagged,fullname,password,phone,role) values (?,?,?,?,?,?)
+Hibernate: insert into users (email,flagged,fullname,password,phone,role) values (?,?,?,?,?,?)
+2026-05-07T20:52:39.280+02:00 DEBUG 31864 --- [backend] [           main] org.hibernate.SQL                        : insert into doctors (qualification,specialization,id) values (?,?,?)
+Hibernate: insert into doctors (qualification,specialization,id) values (?,?,?)
+2026-05-07T20:52:39.283+02:00 DEBUG 31864 --- [backend] [           main] org.hibernate.SQL                        : insert into users (email,flagged,fullname,password,phone,role) values (?,?,?,?,?,?)
+Hibernate: insert into users (email,flagged,fullname,password,phone,role) values (?,?,?,?,?,?)
+2026-05-07T20:52:39.285+02:00 DEBUG 31864 --- [backend] [           main] org.hibernate.SQL                        : insert into doctors (qualification,specialization,id) values (?,?,?)
+Hibernate: insert into doctors (qualification,specialization,id) values (?,?,?)
+2026-05-07T20:52:39.287+02:00 DEBUG 31864 --- [backend] [           main] org.hibernate.SQL                        : insert into users (email,flagged,fullname,password,phone,role) values (?,?,?,?,?,?)
+Hibernate: insert into users (email,flagged,fullname,password,phone,role) values (?,?,?,?,?,?)
+2026-05-07T20:52:39.289+02:00 DEBUG 31864 --- [backend] [           main] org.hibernate.SQL                        : insert into doctors (qualification,specialization,id) values (?,?,?)
+Hibernate: insert into doctors (qualification,specialization,id) values (?,?,?)
+2026-05-07T20:52:39.291+02:00 DEBUG 31864 --- [backend] [           main] org.hibernate.SQL                        : insert into users (email,flagged,fullname,password,phone,role) values (?,?,?,?,?,?)
+Hibernate: insert into users (email,flagged,fullname,password,phone,role) values (?,?,?,?,?,?)
+2026-05-07T20:52:39.297+02:00 DEBUG 31864 --- [backend] [           main] org.hibernate.SQL                        : insert into doctors (qualification,specialization,id) values (?,?,?)
+Hibernate: insert into doctors (qualification,specialization,id) values (?,?,?)
+2026-05-07T20:52:39.304+02:00 DEBUG 31864 --- [backend] [           main] org.hibernate.SQL                        : insert into users (email,flagged,fullname,password,phone,role) values (?,?,?,?,?,?)
+Hibernate: insert into users (email,flagged,fullname,password,phone,role) values (?,?,?,?,?,?)
+2026-05-07T20:52:39.306+02:00 DEBUG 31864 --- [backend] [           main] org.hibernate.SQL                        : insert into patients (address,blood_group,date_of_birth,gender,id) values (?,?,?,?,?)
+Hibernate: insert into patients (address,blood_group,date_of_birth,gender,id) values (?,?,?,?,?)
+2026-05-07T20:52:39.313+02:00 DEBUG 31864 --- [backend] [           main] org.hibernate.SQL                        : insert into users (email,flagged,fullname,password,phone,role) values (?,?,?,?,?,?)
+Hibernate: insert into users (email,flagged,fullname,password,phone,role) values (?,?,?,?,?,?)
+2026-05-07T20:52:39.315+02:00 DEBUG 31864 --- [backend] [           main] org.hibernate.SQL                        : insert into patients (address,blood_group,date_of_birth,gender,id) values (?,?,?,?,?)
+Hibernate: insert into patients (address,blood_group,date_of_birth,gender,id) values (?,?,?,?,?)
+2026-05-07T20:52:39.317+02:00 DEBUG 31864 --- [backend] [           main] org.hibernate.SQL                        : insert into users (email,flagged,fullname,password,phone,role) values (?,?,?,?,?,?)
+Hibernate: insert into users (email,flagged,fullname,password,phone,role) values (?,?,?,?,?,?)
+2026-05-07T20:52:39.318+02:00 DEBUG 31864 --- [backend] [           main] org.hibernate.SQL                        : insert into patients (address,blood_group,date_of_birth,gender,id) values (?,?,?,?,?)
+Hibernate: insert into patients (address,blood_group,date_of_birth,gender,id) values (?,?,?,?,?)
+2026-05-07T20:52:39.321+02:00 DEBUG 31864 --- [backend] [           main] org.hibernate.SQL                        : insert into users (email,flagged,fullname,password,phone,role) values (?,?,?,?,?,?)
+Hibernate: insert into users (email,flagged,fullname,password,phone,role) values (?,?,?,?,?,?)
+2026-05-07T20:52:39.323+02:00 DEBUG 31864 --- [backend] [           main] org.hibernate.SQL                        : insert into patients (address,blood_group,date_of_birth,gender,id) values (?,?,?,?,?)
+Hibernate: insert into patients (address,blood_group,date_of_birth,gender,id) values (?,?,?,?,?)
+2026-05-07T20:52:39.335+02:00 DEBUG 31864 --- [backend] [           main] org.hibernate.SQL                        : insert into doctor_availability (is_available,date,doctor_id,end_time,start_time) values (?,?,?,?,?)
+Hibernate: insert into doctor_availability (is_available,date,doctor_id,end_time,start_time) values (?,?,?,?,?)
+2026-05-07T20:52:39.345+02:00 DEBUG 31864 --- [backend] [           main] org.hibernate.SQL                        : insert into doctor_availability (is_available,date,doctor_id,end_time,start_time) values (?,?,?,?,?)
+Hibernate: insert into doctor_availability (is_available,date,doctor_id,end_time,start_time) values (?,?,?,?,?)
+2026-05-07T20:52:39.348+02:00 DEBUG 31864 --- [backend] [           main] org.hibernate.SQL                        : insert into doctor_availability (is_available,date,doctor_id,end_time,start_time) values (?,?,?,?,?)
+Hibernate: insert into doctor_availability (is_available,date,doctor_id,end_time,start_time) values (?,?,?,?,?)
+2026-05-07T20:52:39.351+02:00 DEBUG 31864 --- [backend] [           main] org.hibernate.SQL                        : insert into doctor_availability (is_available,date,doctor_id,end_time,start_time) values (?,?,?,?,?)
+Hibernate: insert into doctor_availability (is_available,date,doctor_id,end_time,start_time) values (?,?,?,?,?)
+2026-05-07T20:52:39.353+02:00 DEBUG 31864 --- [backend] [           main] org.hibernate.SQL                        : insert into doctor_availability (is_available,date,doctor_id,end_time,start_time) values (?,?,?,?,?)
+Hibernate: insert into doctor_availability (is_available,date,doctor_id,end_time,start_time) values (?,?,?,?,?)
+2026-05-07T20:52:39.357+02:00 DEBUG 31864 --- [backend] [           main] org.hibernate.SQL                        : insert into doctor_availability (is_available,date,doctor_id,end_time,start_time) values (?,?,?,?,?)
+Hibernate: insert into doctor_availability (is_available,date,doctor_id,end_time,start_time) values (?,?,?,?,?)
+2026-05-07T20:52:39.361+02:00 DEBUG 31864 --- [backend] [           main] org.hibernate.SQL                        : insert into doctor_availability (is_available,date,doctor_id,end_time,start_time) values (?,?,?,?,?)
+Hibernate: insert into doctor_availability (is_available,date,doctor_id,end_time,start_time) values (?,?,?,?,?)
+2026-05-07T20:52:39.367+02:00 DEBUG 31864 --- [backend] [           main] org.hibernate.SQL                        : insert into doctor_availability (is_available,date,doctor_id,end_time,start_time) values (?,?,?,?,?)
+Hibernate: insert into doctor_availability (is_available,date,doctor_id,end_time,start_time) values (?,?,?,?,?)
+2026-05-07T20:52:39.370+02:00 DEBUG 31864 --- [backend] [           main] org.hibernate.SQL                        : insert into doctor_availability (is_available,date,doctor_id,end_time,start_time) values (?,?,?,?,?)
+Hibernate: insert into doctor_availability (is_available,date,doctor_id,end_time,start_time) values (?,?,?,?,?)
+2026-05-07T20:52:39.373+02:00 DEBUG 31864 --- [backend] [           main] org.hibernate.SQL                        : insert into doctor_availability (is_available,date,doctor_id,end_time,start_time) values (?,?,?,?,?)
+Hibernate: insert into doctor_availability (is_available,date,doctor_id,end_time,start_time) values (?,?,?,?,?)
+2026-05-07T20:52:39.376+02:00 DEBUG 31864 --- [backend] [           main] org.hibernate.SQL                        : insert into doctor_availability (is_available,date,doctor_id,end_time,start_time) values (?,?,?,?,?)
+Hibernate: insert into doctor_availability (is_available,date,doctor_id,end_time,start_time) values (?,?,?,?,?)
+2026-05-07T20:52:39.380+02:00 DEBUG 31864 --- [backend] [           main] org.hibernate.SQL                        : insert into doctor_availability (is_available,date,doctor_id,end_time,start_time) values (?,?,?,?,?)
+Hibernate: insert into doctor_availability (is_available,date,doctor_id,end_time,start_time) values (?,?,?,?,?)
+2026-05-07T20:52:39.383+02:00 DEBUG 31864 --- [backend] [           main] org.hibernate.SQL                        : insert into doctor_availability (is_available,date,doctor_id,end_time,start_time) values (?,?,?,?,?)
+Hibernate: insert into doctor_availability (is_available,date,doctor_id,end_time,start_time) values (?,?,?,?,?)
+2026-05-07T20:52:39.387+02:00 DEBUG 31864 --- [backend] [           main] org.hibernate.SQL                        : insert into doctor_availability (is_available,date,doctor_id,end_time,start_time) values (?,?,?,?,?)
+Hibernate: insert into doctor_availability (is_available,date,doctor_id,end_time,start_time) values (?,?,?,?,?)
+2026-05-07T20:52:39.392+02:00 DEBUG 31864 --- [backend] [           main] org.hibernate.SQL                        : insert into doctor_availability (is_available,date,doctor_id,end_time,start_time) values (?,?,?,?,?)
+Hibernate: insert into doctor_availability (is_available,date,doctor_id,end_time,start_time) values (?,?,?,?,?)
+2026-05-07T20:52:39.396+02:00 DEBUG 31864 --- [backend] [           main] org.hibernate.SQL                        : insert into doctor_availability (is_available,date,doctor_id,end_time,start_time) values (?,?,?,?,?)
+Hibernate: insert into doctor_availability (is_available,date,doctor_id,end_time,start_time) values (?,?,?,?,?)
+2026-05-07T20:52:39.401+02:00 DEBUG 31864 --- [backend] [           main] org.hibernate.SQL                        : insert into doctor_availability (is_available,date,doctor_id,end_time,start_time) values (?,?,?,?,?)
+Hibernate: insert into doctor_availability (is_available,date,doctor_id,end_time,start_time) values (?,?,?,?,?)
+2026-05-07T20:52:39.408+02:00 DEBUG 31864 --- [backend] [           main] org.hibernate.SQL                        : insert into appointments (availability_id,date,doctor_id,note,patient_id,status,time) values (?,?,?,?,?,?,?)
+Hibernate: insert into appointments (availability_id,date,doctor_id,note,patient_id,status,time) values (?,?,?,?,?,?,?)
+2026-05-07T20:52:39.433+02:00 DEBUG 31864 --- [backend] [           main] org.hibernate.SQL                        : insert into appointments (availability_id,date,doctor_id,note,patient_id,status,time) values (?,?,?,?,?,?,?)
+Hibernate: insert into appointments (availability_id,date,doctor_id,note,patient_id,status,time) values (?,?,?,?,?,?,?)
+2026-05-07T20:52:39.437+02:00 DEBUG 31864 --- [backend] [           main] org.hibernate.SQL                        : insert into appointments (availability_id,date,doctor_id,note,patient_id,status,time) values (?,?,?,?,?,?,?)
+Hibernate: insert into appointments (availability_id,date,doctor_id,note,patient_id,status,time) values (?,?,?,?,?,?,?)
+2026-05-07T20:52:39.440+02:00 DEBUG 31864 --- [backend] [           main] org.hibernate.SQL                        : insert into appointments (availability_id,date,doctor_id,note,patient_id,status,time) values (?,?,?,?,?,?,?)
+Hibernate: insert into appointments (availability_id,date,doctor_id,note,patient_id,status,time) values (?,?,?,?,?,?,?)
+2026-05-07T20:52:39.443+02:00 DEBUG 31864 --- [backend] [           main] org.hibernate.SQL                        : insert into appointments (availability_id,date,doctor_id,note,patient_id,status,time) values (?,?,?,?,?,?,?)
+Hibernate: insert into appointments (availability_id,date,doctor_id,note,patient_id,status,time) values (?,?,?,?,?,?,?)
+2026-05-07T20:52:39.447+02:00 DEBUG 31864 --- [backend] [           main] org.hibernate.SQL                        : insert into appointments (availability_id,date,doctor_id,note,patient_id,status,time) values (?,?,?,?,?,?,?)
+Hibernate: insert into appointments (availability_id,date,doctor_id,note,patient_id,status,time) values (?,?,?,?,?,?,?)
+2026-05-07T20:52:39.450+02:00 DEBUG 31864 --- [backend] [           main] org.hibernate.SQL                        : insert into appointments (availability_id,date,doctor_id,note,patient_id,status,time) values (?,?,?,?,?,?,?)
+Hibernate: insert into appointments (availability_id,date,doctor_id,note,patient_id,status,time) values (?,?,?,?,?,?,?)
+2026-05-07T20:52:39.452+02:00 DEBUG 31864 --- [backend] [           main] org.hibernate.SQL                        : insert into appointments (availability_id,date,doctor_id,note,patient_id,status,time) values (?,?,?,?,?,?,?)
+Hibernate: insert into appointments (availability_id,date,doctor_id,note,patient_id,status,time) values (?,?,?,?,?,?,?)
+2026-05-07T20:52:39.455+02:00 DEBUG 31864 --- [backend] [           main] org.hibernate.SQL                        : insert into appointments (availability_id,date,doctor_id,note,patient_id,status,time) values (?,?,?,?,?,?,?)
+Hibernate: insert into appointments (availability_id,date,doctor_id,note,patient_id,status,time) values (?,?,?,?,?,?,?)
+2026-05-07T20:52:39.457+02:00 DEBUG 31864 --- [backend] [           main] org.hibernate.SQL                        : insert into appointments (availability_id,date,doctor_id,note,patient_id,status,time) values (?,?,?,?,?,?,?)
+Hibernate: insert into appointments (availability_id,date,doctor_id,note,patient_id,status,time) values (?,?,?,?,?,?,?)
+2026-05-07T20:52:39.458+02:00 DEBUG 31864 --- [backend] [           main] org.hibernate.SQL                        : insert into appointments (availability_id,date,doctor_id,note,patient_id,status,time) values (?,?,?,?,?,?,?)
+Hibernate: insert into appointments (availability_id,date,doctor_id,note,patient_id,status,time) values (?,?,?,?,?,?,?)
+2026-05-07T20:52:39.460+02:00 DEBUG 31864 --- [backend] [           main] org.hibernate.SQL                        : insert into appointments (availability_id,date,doctor_id,note,patient_id,status,time) values (?,?,?,?,?,?,?)
+Hibernate: insert into appointments (availability_id,date,doctor_id,note,patient_id,status,time) values (?,?,?,?,?,?,?)
+2026-05-07T20:52:39.462+02:00 DEBUG 31864 --- [backend] [           main] org.hibernate.SQL                        : insert into appointments (availability_id,date,doctor_id,note,patient_id,status,time) values (?,?,?,?,?,?,?)
+Hibernate: insert into appointments (availability_id,date,doctor_id,note,patient_id,status,time) values (?,?,?,?,?,?,?)
+2026-05-07T20:52:39.466+02:00 DEBUG 31864 --- [backend] [           main] org.hibernate.SQL                        : insert into appointments (availability_id,date,doctor_id,note,patient_id,status,time) values (?,?,?,?,?,?,?)
+Hibernate: insert into appointments (availability_id,date,doctor_id,note,patient_id,status,time) values (?,?,?,?,?,?,?)
+2026-05-07T20:52:39.470+02:00 DEBUG 31864 --- [backend] [           main] org.hibernate.SQL                        : insert into medical_records (appointment_id,diagnosis,note,patient_id,prescription,visit_date) values (?,?,?,?,?,?)
+Hibernate: insert into medical_records (appointment_id,diagnosis,note,patient_id,prescription,visit_date) values (?,?,?,?,?,?)
+2026-05-07T20:52:39.473+02:00 DEBUG 31864 --- [backend] [           main] org.hibernate.SQL                        : insert into medical_records (appointment_id,diagnosis,note,patient_id,prescription,visit_date) values (?,?,?,?,?,?)
+Hibernate: insert into medical_records (appointment_id,diagnosis,note,patient_id,prescription,visit_date) values (?,?,?,?,?,?)
+2026-05-07T20:52:39.475+02:00 DEBUG 31864 --- [backend] [           main] org.hibernate.SQL                        : insert into medical_records (appointment_id,diagnosis,note,patient_id,prescription,visit_date) values (?,?,?,?,?,?)
+Hibernate: insert into medical_records (appointment_id,diagnosis,note,patient_id,prescription,visit_date) values (?,?,?,?,?,?)
+2026-05-07T20:52:39.476+02:00 DEBUG 31864 --- [backend] [           main] org.hibernate.SQL                        : insert into medical_records (appointment_id,diagnosis,note,patient_id,prescription,visit_date) values (?,?,?,?,?,?)
+Hibernate: insert into medical_records (appointment_id,diagnosis,note,patient_id,prescription,visit_date) values (?,?,?,?,?,?)
+2026-05-07T20:52:39.477+02:00 DEBUG 31864 --- [backend] [           main] org.hibernate.SQL                        : insert into medical_records (appointment_id,diagnosis,note,patient_id,prescription,visit_date) values (?,?,?,?,?,?)
+Hibernate: insert into medical_records (appointment_id,diagnosis,note,patient_id,prescription,visit_date) values (?,?,?,?,?,?)
+2026-05-07T20:52:39.479+02:00 DEBUG 31864 --- [backend] [           main] org.hibernate.SQL                        : insert into medical_records (appointment_id,diagnosis,note,patient_id,prescription,visit_date) values (?,?,?,?,?,?)
+Hibernate: insert into medical_records (appointment_id,diagnosis,note,patient_id,prescription,visit_date) values (?,?,?,?,?,?)
+2026-05-07T20:52:39.482+02:00 DEBUG 31864 --- [backend] [           main] org.hibernate.SQL                        : insert into medical_records (appointment_id,diagnosis,note,patient_id,prescription,visit_date) values (?,?,?,?,?,?)
+Hibernate: insert into medical_records (appointment_id,diagnosis,note,patient_id,prescription,visit_date) values (?,?,?,?,?,?)
+2026-05-07T20:52:39.485+02:00 DEBUG 31864 --- [backend] [           main] org.hibernate.SQL                        : insert into medical_records (appointment_id,diagnosis,note,patient_id,prescription,visit_date) values (?,?,?,?,?,?)
+Hibernate: insert into medical_records (appointment_id,diagnosis,note,patient_id,prescription,visit_date) values (?,?,?,?,?,?)
+2026-05-07T20:52:39.487+02:00 DEBUG 31864 --- [backend] [           main] org.hibernate.SQL                        : insert into notifications (appointment_id,is_read,message,sent_at,type) values (?,?,?,?,?)
+Hibernate: insert into notifications (appointment_id,is_read,message,sent_at,type) values (?,?,?,?,?)
+2026-05-07T20:52:39.491+02:00 DEBUG 31864 --- [backend] [           main] org.hibernate.SQL                        : insert into notifications (appointment_id,is_read,message,sent_at,type) values (?,?,?,?,?)
+Hibernate: insert into notifications (appointment_id,is_read,message,sent_at,type) values (?,?,?,?,?)
+2026-05-07T20:52:39.494+02:00 DEBUG 31864 --- [backend] [           main] org.hibernate.SQL                        : insert into notifications (appointment_id,is_read,message,sent_at,type) values (?,?,?,?,?)
+Hibernate: insert into notifications (appointment_id,is_read,message,sent_at,type) values (?,?,?,?,?)
+2026-05-07T20:52:39.496+02:00 DEBUG 31864 --- [backend] [           main] org.hibernate.SQL                        : insert into notifications (appointment_id,is_read,message,sent_at,type) values (?,?,?,?,?)
+Hibernate: insert into notifications (appointment_id,is_read,message,sent_at,type) values (?,?,?,?,?)
+2026-05-07T20:52:39.501+02:00 DEBUG 31864 --- [backend] [           main] org.hibernate.SQL                        : insert into notifications (appointment_id,is_read,message,sent_at,type) values (?,?,?,?,?)
+Hibernate: insert into notifications (appointment_id,is_read,message,sent_at,type) values (?,?,?,?,?)
+2026-05-07T20:52:39.527+02:00 DEBUG 31864 --- [backend] [           main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2026-05-07T20:55:56.392+02:00  INFO 31864 --- [backend] [nio-8081-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-07T20:55:56.392+02:00  INFO 31864 --- [backend] [nio-8081-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-05-07T20:55:56.393+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-3] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2026-05-07T20:55:56.393+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-3] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2026-05-07T20:55:56.394+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-3] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@22495f2f
+2026-05-07T20:55:56.394+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-3] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@5444c63f
+2026-05-07T20:55:56.394+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-3] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2026-05-07T20:55:56.394+02:00  INFO 31864 --- [backend] [nio-8081-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2026-05-07T20:55:56.757+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-3] org.hibernate.SQL                        : select u1_0.id,case when u1_1.id is not null then 1 when u1_2.id is not null then 2 when u1_3.id is not null then 3 when u1_0.id is not null then 0 end,u1_0.email,u1_0.flagged,u1_0.fullname,u1_0.password,u1_0.phone,u1_0.role,u1_1.permission,u1_2.qualification,u1_2.specialization,u1_3.address,u1_3.blood_group,u1_3.date_of_birth,u1_3.gender from users u1_0 left join admins u1_1 on u1_0.id=u1_1.id left join doctors u1_2 on u1_0.id=u1_2.id left join patients u1_3 on u1_0.id=u1_3.id where u1_0.email=?
+Hibernate: select u1_0.id,case when u1_1.id is not null then 1 when u1_2.id is not null then 2 when u1_3.id is not null then 3 when u1_0.id is not null then 0 end,u1_0.email,u1_0.flagged,u1_0.fullname,u1_0.password,u1_0.phone,u1_0.role,u1_1.permission,u1_2.qualification,u1_2.specialization,u1_3.address,u1_3.blood_group,u1_3.date_of_birth,u1_3.gender from users u1_0 left join admins u1_1 on u1_0.id=u1_1.id left join doctors u1_2 on u1_0.id=u1_2.id left join patients u1_3 on u1_0.id=u1_3.id where u1_0.email=?
+2026-05-07T20:55:56.757+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-1] org.hibernate.SQL                        : select u1_0.id,case when u1_1.id is not null then 1 when u1_2.id is not null then 2 when u1_3.id is not null then 3 when u1_0.id is not null then 0 end,u1_0.email,u1_0.flagged,u1_0.fullname,u1_0.password,u1_0.phone,u1_0.role,u1_1.permission,u1_2.qualification,u1_2.specialization,u1_3.address,u1_3.blood_group,u1_3.date_of_birth,u1_3.gender from users u1_0 left join admins u1_1 on u1_0.id=u1_1.id left join doctors u1_2 on u1_0.id=u1_2.id left join patients u1_3 on u1_0.id=u1_3.id where u1_0.email=?
+Hibernate: select u1_0.id,case when u1_1.id is not null then 1 when u1_2.id is not null then 2 when u1_3.id is not null then 3 when u1_0.id is not null then 0 end,u1_0.email,u1_0.flagged,u1_0.fullname,u1_0.password,u1_0.phone,u1_0.role,u1_1.permission,u1_2.qualification,u1_2.specialization,u1_3.address,u1_3.blood_group,u1_3.date_of_birth,u1_3.gender from users u1_0 left join admins u1_1 on u1_0.id=u1_1.id left join doctors u1_2 on u1_0.id=u1_2.id left join patients u1_3 on u1_0.id=u1_3.id where u1_0.email=?
+2026-05-07T20:55:56.757+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-2] org.hibernate.SQL                        : select u1_0.id,case when u1_1.id is not null then 1 when u1_2.id is not null then 2 when u1_3.id is not null then 3 when u1_0.id is not null then 0 end,u1_0.email,u1_0.flagged,u1_0.fullname,u1_0.password,u1_0.phone,u1_0.role,u1_1.permission,u1_2.qualification,u1_2.specialization,u1_3.address,u1_3.blood_group,u1_3.date_of_birth,u1_3.gender from users u1_0 left join admins u1_1 on u1_0.id=u1_1.id left join doctors u1_2 on u1_0.id=u1_2.id left join patients u1_3 on u1_0.id=u1_3.id where u1_0.email=?
+Hibernate: select u1_0.id,case when u1_1.id is not null then 1 when u1_2.id is not null then 2 when u1_3.id is not null then 3 when u1_0.id is not null then 0 end,u1_0.email,u1_0.flagged,u1_0.fullname,u1_0.password,u1_0.phone,u1_0.role,u1_1.permission,u1_2.qualification,u1_2.specialization,u1_3.address,u1_3.blood_group,u1_3.date_of_birth,u1_3.gender from users u1_0 left join admins u1_1 on u1_0.id=u1_1.id left join doctors u1_2 on u1_0.id=u1_2.id left join patients u1_3 on u1_0.id=u1_3.id where u1_0.email=?
+2026-05-07T20:55:56.799+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/api/patients", parameters={}
+2026-05-07T20:55:56.799+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/api/appointments/all", parameters={}
+2026-05-07T20:55:56.799+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/api/doctors", parameters={}
+2026-05-07T20:55:56.811+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2026-05-07T20:55:56.815+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.auca.backend.controller.DoctorController#getAllDoctors()
+2026-05-07T20:55:56.815+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.auca.backend.controller.AppointmentController#getById(Long)
+2026-05-07T20:55:56.819+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-2] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found for path [api/patients]
+2026-05-07T20:55:56.825+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource api/patients for request '/api/patients'.]
+2026-05-07T20:55:56.826+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2026-05-07T20:55:56.844+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-3] o.s.web.method.HandlerMethod             : Could not resolve parameter [0] in public org.springframework.http.ResponseEntity<com.auca.backend.model.Appointment> com.auca.backend.controller.AppointmentController.getById(java.lang.Long): Method parameter 'id': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "all"
+2026-05-07T20:55:56.848+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-1] org.hibernate.SQL                        : select d1_0.id,d1_1.email,d1_1.flagged,d1_1.fullname,d1_1.password,d1_1.phone,d1_1.role,d1_0.qualification,d1_0.specialization from doctors d1_0 join users d1_1 on d1_0.id=d1_1.id
+Hibernate: select d1_0.id,d1_1.email,d1_1.flagged,d1_1.fullname,d1_1.password,d1_1.phone,d1_1.role,d1_0.qualification,d1_0.specialization from doctors d1_0 join users d1_1 on d1_0.id=d1_1.id
+2026-05-07T20:55:56.848+02:00  WARN 31864 --- [backend] [nio-8081-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'id': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "all"]
+2026-05-07T20:55:56.848+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 400 BAD_REQUEST
+2026-05-07T20:55:56.861+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2026-05-07T20:55:56.862+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[Doctor(specialization=Cardiology, qualification=MD), Doctor(specialization=General Practice, qualif (truncated)...]
+2026-05-07T20:55:56.942+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-05-07T20:56:16.078+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-4] o.s.web.servlet.DispatcherServlet        : POST "/api/auth/login", parameters={}
+2026-05-07T20:56:16.078+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.auca.backend.controller.AuthController#login(LoginRequest)
+2026-05-07T20:56:16.120+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [LoginRequest(email=eric.habimana@dhams.com, password=Patient@123)]
+2026-05-07T20:56:16.202+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-4] org.hibernate.SQL                        : select u1_0.id,case when u1_1.id is not null then 1 when u1_2.id is not null then 2 when u1_3.id is not null then 3 when u1_0.id is not null then 0 end,u1_0.email,u1_0.flagged,u1_0.fullname,u1_0.password,u1_0.phone,u1_0.role,u1_1.permission,u1_2.qualification,u1_2.specialization,u1_3.address,u1_3.blood_group,u1_3.date_of_birth,u1_3.gender from users u1_0 left join admins u1_1 on u1_0.id=u1_1.id left join doctors u1_2 on u1_0.id=u1_2.id left join patients u1_3 on u1_0.id=u1_3.id where u1_0.email=?
+Hibernate: select u1_0.id,case when u1_1.id is not null then 1 when u1_2.id is not null then 2 when u1_3.id is not null then 3 when u1_0.id is not null then 0 end,u1_0.email,u1_0.flagged,u1_0.fullname,u1_0.password,u1_0.phone,u1_0.role,u1_1.permission,u1_2.qualification,u1_2.specialization,u1_3.address,u1_3.blood_group,u1_3.date_of_birth,u1_3.gender from users u1_0 left join admins u1_1 on u1_0.id=u1_1.id left join doctors u1_2 on u1_0.id=u1_2.id left join patients u1_3 on u1_0.id=u1_3.id where u1_0.email=?
+2026-05-07T20:56:16.284+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-4] org.hibernate.SQL                        : select u1_0.id,case when u1_1.id is not null then 1 when u1_2.id is not null then 2 when u1_3.id is not null then 3 when u1_0.id is not null then 0 end,u1_0.email,u1_0.flagged,u1_0.fullname,u1_0.password,u1_0.phone,u1_0.role,u1_1.permission,u1_2.qualification,u1_2.specialization,u1_3.address,u1_3.blood_group,u1_3.date_of_birth,u1_3.gender from users u1_0 left join admins u1_1 on u1_0.id=u1_1.id left join doctors u1_2 on u1_0.id=u1_2.id left join patients u1_3 on u1_0.id=u1_3.id where u1_0.email=?
+Hibernate: select u1_0.id,case when u1_1.id is not null then 1 when u1_2.id is not null then 2 when u1_3.id is not null then 3 when u1_0.id is not null then 0 end,u1_0.email,u1_0.flagged,u1_0.fullname,u1_0.password,u1_0.phone,u1_0.role,u1_1.permission,u1_2.qualification,u1_2.specialization,u1_3.address,u1_3.blood_group,u1_3.date_of_birth,u1_3.gender from users u1_0 left join admins u1_1 on u1_0.id=u1_1.id left join doctors u1_2 on u1_0.id=u1_2.id left join patients u1_3 on u1_0.id=u1_3.id where u1_0.email=?
+2026-05-07T20:56:16.285+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-4] org.hibernate.SQL                        : select u1_0.id,case when u1_1.id is not null then 1 when u1_2.id is not null then 2 when u1_3.id is not null then 3 when u1_0.id is not null then 0 end,u1_0.email,u1_0.flagged,u1_0.fullname,u1_0.password,u1_0.phone,u1_0.role,u1_1.permission,u1_2.qualification,u1_2.specialization,u1_3.address,u1_3.blood_group,u1_3.date_of_birth,u1_3.gender from users u1_0 left join admins u1_1 on u1_0.id=u1_1.id left join doctors u1_2 on u1_0.id=u1_2.id left join patients u1_3 on u1_0.id=u1_3.id where u1_0.email=?
+Hibernate: select u1_0.id,case when u1_1.id is not null then 1 when u1_2.id is not null then 2 when u1_3.id is not null then 3 when u1_0.id is not null then 0 end,u1_0.email,u1_0.flagged,u1_0.fullname,u1_0.password,u1_0.phone,u1_0.role,u1_1.permission,u1_2.qualification,u1_2.specialization,u1_3.address,u1_3.blood_group,u1_3.date_of_birth,u1_3.gender from users u1_0 left join admins u1_1 on u1_0.id=u1_1.id left join doctors u1_2 on u1_0.id=u1_2.id left join patients u1_3 on u1_0.id=u1_3.id where u1_0.email=?
+2026-05-07T20:56:16.319+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2026-05-07T20:56:16.320+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [AuthResponse(userId=17, fullName=Eric Habimana, token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJlcmljLmhhYmltY (truncated)...]
+2026-05-07T20:56:16.322+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-05-07T20:56:16.374+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-6] org.hibernate.SQL                        : select u1_0.id,case when u1_1.id is not null then 1 when u1_2.id is not null then 2 when u1_3.id is not null then 3 when u1_0.id is not null then 0 end,u1_0.email,u1_0.flagged,u1_0.fullname,u1_0.password,u1_0.phone,u1_0.role,u1_1.permission,u1_2.qualification,u1_2.specialization,u1_3.address,u1_3.blood_group,u1_3.date_of_birth,u1_3.gender from users u1_0 left join admins u1_1 on u1_0.id=u1_1.id left join doctors u1_2 on u1_0.id=u1_2.id left join patients u1_3 on u1_0.id=u1_3.id where u1_0.email=?
+Hibernate: select u1_0.id,case when u1_1.id is not null then 1 when u1_2.id is not null then 2 when u1_3.id is not null then 3 when u1_0.id is not null then 0 end,u1_0.email,u1_0.flagged,u1_0.fullname,u1_0.password,u1_0.phone,u1_0.role,u1_1.permission,u1_2.qualification,u1_2.specialization,u1_3.address,u1_3.blood_group,u1_3.date_of_birth,u1_3.gender from users u1_0 left join admins u1_1 on u1_0.id=u1_1.id left join doctors u1_2 on u1_0.id=u1_2.id left join patients u1_3 on u1_0.id=u1_3.id where u1_0.email=?
+2026-05-07T20:56:16.386+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/api/patients/17/appointments", parameters={}
+2026-05-07T20:56:16.387+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.auca.backend.controller.PatientController#getAppointments(Long)
+2026-05-07T20:56:16.390+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-5] org.hibernate.SQL                        : select u1_0.id,case when u1_1.id is not null then 1 when u1_2.id is not null then 2 when u1_3.id is not null then 3 when u1_0.id is not null then 0 end,u1_0.email,u1_0.flagged,u1_0.fullname,u1_0.password,u1_0.phone,u1_0.role,u1_1.permission,u1_2.qualification,u1_2.specialization,u1_3.address,u1_3.blood_group,u1_3.date_of_birth,u1_3.gender from users u1_0 left join admins u1_1 on u1_0.id=u1_1.id left join doctors u1_2 on u1_0.id=u1_2.id left join patients u1_3 on u1_0.id=u1_3.id where u1_0.email=?
+Hibernate: select u1_0.id,case when u1_1.id is not null then 1 when u1_2.id is not null then 2 when u1_3.id is not null then 3 when u1_0.id is not null then 0 end,u1_0.email,u1_0.flagged,u1_0.fullname,u1_0.password,u1_0.phone,u1_0.role,u1_1.permission,u1_2.qualification,u1_2.specialization,u1_3.address,u1_3.blood_group,u1_3.date_of_birth,u1_3.gender from users u1_0 left join admins u1_1 on u1_0.id=u1_1.id left join doctors u1_2 on u1_0.id=u1_2.id left join patients u1_3 on u1_0.id=u1_3.id where u1_0.email=?
+2026-05-07T20:56:16.394+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-6] org.hibernate.SQL                        : select a1_0.appointment_id,a1_0.availability_id,a1_0.date,a1_0.doctor_id,a1_0.note,a1_0.patient_id,a1_0.status,a1_0.time from appointments a1_0 where a1_0.patient_id=?
+Hibernate: select a1_0.appointment_id,a1_0.availability_id,a1_0.date,a1_0.doctor_id,a1_0.note,a1_0.patient_id,a1_0.status,a1_0.time from appointments a1_0 where a1_0.patient_id=?
+2026-05-07T20:56:16.396+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/api/patients/17/records", parameters={}
+2026-05-07T20:56:16.397+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.auca.backend.controller.PatientController#getMedicalHistory(Long)
+2026-05-07T20:56:16.401+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-5] org.hibernate.SQL                        : select mr1_0.record_id,mr1_0.appointment_id,mr1_0.diagnosis,mr1_0.note,mr1_0.patient_id,mr1_0.prescription,mr1_0.visit_date from medical_records mr1_0 where mr1_0.patient_id=?
+Hibernate: select mr1_0.record_id,mr1_0.appointment_id,mr1_0.diagnosis,mr1_0.note,mr1_0.patient_id,mr1_0.prescription,mr1_0.visit_date from medical_records mr1_0 where mr1_0.patient_id=?
+2026-05-07T20:56:16.405+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2026-05-07T20:56:16.406+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[]]
+2026-05-07T20:56:16.407+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-05-07T20:56:16.410+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-6] org.hibernate.SQL                        : select da1_0.availability_id,da1_0.is_available,da1_0.date,da1_0.doctor_id,d1_0.id,d1_1.email,d1_1.flagged,d1_1.fullname,d1_1.password,d1_1.phone,d1_1.role,d1_0.qualification,d1_0.specialization,da1_0.end_time,da1_0.start_time from doctor_availability da1_0 join doctors d1_0 on d1_0.id=da1_0.doctor_id join users d1_1 on d1_0.id=d1_1.id where da1_0.availability_id=?
+Hibernate: select da1_0.availability_id,da1_0.is_available,da1_0.date,da1_0.doctor_id,d1_0.id,d1_1.email,d1_1.flagged,d1_1.fullname,d1_1.password,d1_1.phone,d1_1.role,d1_0.qualification,d1_0.specialization,da1_0.end_time,da1_0.start_time from doctor_availability da1_0 join doctors d1_0 on d1_0.id=da1_0.doctor_id join users d1_1 on d1_0.id=d1_1.id where da1_0.availability_id=?
+2026-05-07T20:56:16.412+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-6] org.hibernate.SQL                        : select p1_0.id,p1_1.email,p1_1.flagged,p1_1.fullname,p1_1.password,p1_1.phone,p1_1.role,p1_0.address,p1_0.blood_group,p1_0.date_of_birth,p1_0.gender from patients p1_0 join users p1_1 on p1_0.id=p1_1.id where p1_0.id=?
+Hibernate: select p1_0.id,p1_1.email,p1_1.flagged,p1_1.fullname,p1_1.password,p1_1.phone,p1_1.role,p1_0.address,p1_0.blood_group,p1_0.date_of_birth,p1_0.gender from patients p1_0 join users p1_1 on p1_0.id=p1_1.id where p1_0.id=?
+2026-05-07T20:56:16.415+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-7] org.hibernate.SQL                        : select u1_0.id,case when u1_1.id is not null then 1 when u1_2.id is not null then 2 when u1_3.id is not null then 3 when u1_0.id is not null then 0 end,u1_0.email,u1_0.flagged,u1_0.fullname,u1_0.password,u1_0.phone,u1_0.role,u1_1.permission,u1_2.qualification,u1_2.specialization,u1_3.address,u1_3.blood_group,u1_3.date_of_birth,u1_3.gender from users u1_0 left join admins u1_1 on u1_0.id=u1_1.id left join doctors u1_2 on u1_0.id=u1_2.id left join patients u1_3 on u1_0.id=u1_3.id where u1_0.email=?
+Hibernate: select u1_0.id,case when u1_1.id is not null then 1 when u1_2.id is not null then 2 when u1_3.id is not null then 3 when u1_0.id is not null then 0 end,u1_0.email,u1_0.flagged,u1_0.fullname,u1_0.password,u1_0.phone,u1_0.role,u1_1.permission,u1_2.qualification,u1_2.specialization,u1_3.address,u1_3.blood_group,u1_3.date_of_birth,u1_3.gender from users u1_0 left join admins u1_1 on u1_0.id=u1_1.id left join doctors u1_2 on u1_0.id=u1_2.id left join patients u1_3 on u1_0.id=u1_3.id where u1_0.email=?
+2026-05-07T20:56:16.417+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-6] org.hibernate.SQL                        : select da1_0.availability_id,da1_0.is_available,da1_0.date,da1_0.doctor_id,d1_0.id,d1_1.email,d1_1.flagged,d1_1.fullname,d1_1.password,d1_1.phone,d1_1.role,d1_0.qualification,d1_0.specialization,da1_0.end_time,da1_0.start_time from doctor_availability da1_0 join doctors d1_0 on d1_0.id=da1_0.doctor_id join users d1_1 on d1_0.id=d1_1.id where da1_0.availability_id=?
+Hibernate: select da1_0.availability_id,da1_0.is_available,da1_0.date,da1_0.doctor_id,d1_0.id,d1_1.email,d1_1.flagged,d1_1.fullname,d1_1.password,d1_1.phone,d1_1.role,d1_0.qualification,d1_0.specialization,da1_0.end_time,da1_0.start_time from doctor_availability da1_0 join doctors d1_0 on d1_0.id=da1_0.doctor_id join users d1_1 on d1_0.id=d1_1.id where da1_0.availability_id=?
+2026-05-07T20:56:16.420+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2026-05-07T20:56:16.422+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/api/patients/17/records", parameters={}
+2026-05-07T20:56:16.422+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.auca.backend.controller.PatientController#getMedicalHistory(Long)
+2026-05-07T20:56:16.423+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[Appointment(appointmentId=12, patient=Patient(gender=Male, address=Nyarugenge, Kigali, dateOfBirth= (truncated)...]
+2026-05-07T20:56:16.423+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-7] org.hibernate.SQL                        : select mr1_0.record_id,mr1_0.appointment_id,mr1_0.diagnosis,mr1_0.note,mr1_0.patient_id,mr1_0.prescription,mr1_0.visit_date from medical_records mr1_0 where mr1_0.patient_id=?
+Hibernate: select mr1_0.record_id,mr1_0.appointment_id,mr1_0.diagnosis,mr1_0.note,mr1_0.patient_id,mr1_0.prescription,mr1_0.visit_date from medical_records mr1_0 where mr1_0.patient_id=?
+2026-05-07T20:56:16.425+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2026-05-07T20:56:16.425+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[]]
+2026-05-07T20:56:16.426+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-05-07T20:56:16.431+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-05-07T20:56:16.439+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-9] org.hibernate.SQL                        : select u1_0.id,case when u1_1.id is not null then 1 when u1_2.id is not null then 2 when u1_3.id is not null then 3 when u1_0.id is not null then 0 end,u1_0.email,u1_0.flagged,u1_0.fullname,u1_0.password,u1_0.phone,u1_0.role,u1_1.permission,u1_2.qualification,u1_2.specialization,u1_3.address,u1_3.blood_group,u1_3.date_of_birth,u1_3.gender from users u1_0 left join admins u1_1 on u1_0.id=u1_1.id left join doctors u1_2 on u1_0.id=u1_2.id left join patients u1_3 on u1_0.id=u1_3.id where u1_0.email=?
+Hibernate: select u1_0.id,case when u1_1.id is not null then 1 when u1_2.id is not null then 2 when u1_3.id is not null then 3 when u1_0.id is not null then 0 end,u1_0.email,u1_0.flagged,u1_0.fullname,u1_0.password,u1_0.phone,u1_0.role,u1_1.permission,u1_2.qualification,u1_2.specialization,u1_3.address,u1_3.blood_group,u1_3.date_of_birth,u1_3.gender from users u1_0 left join admins u1_1 on u1_0.id=u1_1.id left join doctors u1_2 on u1_0.id=u1_2.id left join patients u1_3 on u1_0.id=u1_3.id where u1_0.email=?
+2026-05-07T20:56:16.444+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/api/patients/17/appointments", parameters={}
+2026-05-07T20:56:16.445+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.auca.backend.controller.PatientController#getAppointments(Long)
+2026-05-07T20:56:16.446+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-9] org.hibernate.SQL                        : select a1_0.appointment_id,a1_0.availability_id,a1_0.date,a1_0.doctor_id,a1_0.note,a1_0.patient_id,a1_0.status,a1_0.time from appointments a1_0 where a1_0.patient_id=?
+Hibernate: select a1_0.appointment_id,a1_0.availability_id,a1_0.date,a1_0.doctor_id,a1_0.note,a1_0.patient_id,a1_0.status,a1_0.time from appointments a1_0 where a1_0.patient_id=?
+2026-05-07T20:56:16.447+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-9] org.hibernate.SQL                        : select da1_0.availability_id,da1_0.is_available,da1_0.date,da1_0.doctor_id,d1_0.id,d1_1.email,d1_1.flagged,d1_1.fullname,d1_1.password,d1_1.phone,d1_1.role,d1_0.qualification,d1_0.specialization,da1_0.end_time,da1_0.start_time from doctor_availability da1_0 join doctors d1_0 on d1_0.id=da1_0.doctor_id join users d1_1 on d1_0.id=d1_1.id where da1_0.availability_id=?
+Hibernate: select da1_0.availability_id,da1_0.is_available,da1_0.date,da1_0.doctor_id,d1_0.id,d1_1.email,d1_1.flagged,d1_1.fullname,d1_1.password,d1_1.phone,d1_1.role,d1_0.qualification,d1_0.specialization,da1_0.end_time,da1_0.start_time from doctor_availability da1_0 join doctors d1_0 on d1_0.id=da1_0.doctor_id join users d1_1 on d1_0.id=d1_1.id where da1_0.availability_id=?
+2026-05-07T20:56:16.449+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-9] org.hibernate.SQL                        : select p1_0.id,p1_1.email,p1_1.flagged,p1_1.fullname,p1_1.password,p1_1.phone,p1_1.role,p1_0.address,p1_0.blood_group,p1_0.date_of_birth,p1_0.gender from patients p1_0 join users p1_1 on p1_0.id=p1_1.id where p1_0.id=?
+Hibernate: select p1_0.id,p1_1.email,p1_1.flagged,p1_1.fullname,p1_1.password,p1_1.phone,p1_1.role,p1_0.address,p1_0.blood_group,p1_0.date_of_birth,p1_0.gender from patients p1_0 join users p1_1 on p1_0.id=p1_1.id where p1_0.id=?
+2026-05-07T20:56:16.451+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-9] org.hibernate.SQL                        : select da1_0.availability_id,da1_0.is_available,da1_0.date,da1_0.doctor_id,d1_0.id,d1_1.email,d1_1.flagged,d1_1.fullname,d1_1.password,d1_1.phone,d1_1.role,d1_0.qualification,d1_0.specialization,da1_0.end_time,da1_0.start_time from doctor_availability da1_0 join doctors d1_0 on d1_0.id=da1_0.doctor_id join users d1_1 on d1_0.id=d1_1.id where da1_0.availability_id=?
+Hibernate: select da1_0.availability_id,da1_0.is_available,da1_0.date,da1_0.doctor_id,d1_0.id,d1_1.email,d1_1.flagged,d1_1.fullname,d1_1.password,d1_1.phone,d1_1.role,d1_0.qualification,d1_0.specialization,da1_0.end_time,da1_0.start_time from doctor_availability da1_0 join doctors d1_0 on d1_0.id=da1_0.doctor_id join users d1_1 on d1_0.id=d1_1.id where da1_0.availability_id=?
+2026-05-07T20:56:16.453+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2026-05-07T20:56:16.454+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[Appointment(appointmentId=12, patient=Patient(gender=Male, address=Nyarugenge, Kigali, dateOfBirth= (truncated)...]
+2026-05-07T20:56:16.455+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-05-07T20:56:19.074+02:00 DEBUG 31864 --- [backend] [io-8081-exec-10] org.hibernate.SQL                        : select u1_0.id,case when u1_1.id is not null then 1 when u1_2.id is not null then 2 when u1_3.id is not null then 3 when u1_0.id is not null then 0 end,u1_0.email,u1_0.flagged,u1_0.fullname,u1_0.password,u1_0.phone,u1_0.role,u1_1.permission,u1_2.qualification,u1_2.specialization,u1_3.address,u1_3.blood_group,u1_3.date_of_birth,u1_3.gender from users u1_0 left join admins u1_1 on u1_0.id=u1_1.id left join doctors u1_2 on u1_0.id=u1_2.id left join patients u1_3 on u1_0.id=u1_3.id where u1_0.email=?
+Hibernate: select u1_0.id,case when u1_1.id is not null then 1 when u1_2.id is not null then 2 when u1_3.id is not null then 3 when u1_0.id is not null then 0 end,u1_0.email,u1_0.flagged,u1_0.fullname,u1_0.password,u1_0.phone,u1_0.role,u1_1.permission,u1_2.qualification,u1_2.specialization,u1_3.address,u1_3.blood_group,u1_3.date_of_birth,u1_3.gender from users u1_0 left join admins u1_1 on u1_0.id=u1_1.id left join doctors u1_2 on u1_0.id=u1_2.id left join patients u1_3 on u1_0.id=u1_3.id where u1_0.email=?
+2026-05-07T20:56:19.083+02:00 DEBUG 31864 --- [backend] [io-8081-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/api/patients/17/appointments", parameters={}
+2026-05-07T20:56:19.084+02:00 DEBUG 31864 --- [backend] [io-8081-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.auca.backend.controller.PatientController#getAppointments(Long)
+2026-05-07T20:56:19.086+02:00 DEBUG 31864 --- [backend] [io-8081-exec-10] org.hibernate.SQL                        : select a1_0.appointment_id,a1_0.availability_id,a1_0.date,a1_0.doctor_id,a1_0.note,a1_0.patient_id,a1_0.status,a1_0.time from appointments a1_0 where a1_0.patient_id=?
+Hibernate: select a1_0.appointment_id,a1_0.availability_id,a1_0.date,a1_0.doctor_id,a1_0.note,a1_0.patient_id,a1_0.status,a1_0.time from appointments a1_0 where a1_0.patient_id=?
+2026-05-07T20:56:19.087+02:00 DEBUG 31864 --- [backend] [io-8081-exec-10] org.hibernate.SQL                        : select da1_0.availability_id,da1_0.is_available,da1_0.date,da1_0.doctor_id,d1_0.id,d1_1.email,d1_1.flagged,d1_1.fullname,d1_1.password,d1_1.phone,d1_1.role,d1_0.qualification,d1_0.specialization,da1_0.end_time,da1_0.start_time from doctor_availability da1_0 join doctors d1_0 on d1_0.id=da1_0.doctor_id join users d1_1 on d1_0.id=d1_1.id where da1_0.availability_id=?
+Hibernate: select da1_0.availability_id,da1_0.is_available,da1_0.date,da1_0.doctor_id,d1_0.id,d1_1.email,d1_1.flagged,d1_1.fullname,d1_1.password,d1_1.phone,d1_1.role,d1_0.qualification,d1_0.specialization,da1_0.end_time,da1_0.start_time from doctor_availability da1_0 join doctors d1_0 on d1_0.id=da1_0.doctor_id join users d1_1 on d1_0.id=d1_1.id where da1_0.availability_id=?
+2026-05-07T20:56:19.089+02:00 DEBUG 31864 --- [backend] [io-8081-exec-10] org.hibernate.SQL                        : select p1_0.id,p1_1.email,p1_1.flagged,p1_1.fullname,p1_1.password,p1_1.phone,p1_1.role,p1_0.address,p1_0.blood_group,p1_0.date_of_birth,p1_0.gender from patients p1_0 join users p1_1 on p1_0.id=p1_1.id where p1_0.id=?
+Hibernate: select p1_0.id,p1_1.email,p1_1.flagged,p1_1.fullname,p1_1.password,p1_1.phone,p1_1.role,p1_0.address,p1_0.blood_group,p1_0.date_of_birth,p1_0.gender from patients p1_0 join users p1_1 on p1_0.id=p1_1.id where p1_0.id=?
+2026-05-07T20:56:19.091+02:00 DEBUG 31864 --- [backend] [io-8081-exec-10] org.hibernate.SQL                        : select da1_0.availability_id,da1_0.is_available,da1_0.date,da1_0.doctor_id,d1_0.id,d1_1.email,d1_1.flagged,d1_1.fullname,d1_1.password,d1_1.phone,d1_1.role,d1_0.qualification,d1_0.specialization,da1_0.end_time,da1_0.start_time from doctor_availability da1_0 join doctors d1_0 on d1_0.id=da1_0.doctor_id join users d1_1 on d1_0.id=d1_1.id where da1_0.availability_id=?
+Hibernate: select da1_0.availability_id,da1_0.is_available,da1_0.date,da1_0.doctor_id,d1_0.id,d1_1.email,d1_1.flagged,d1_1.fullname,d1_1.password,d1_1.phone,d1_1.role,d1_0.qualification,d1_0.specialization,da1_0.end_time,da1_0.start_time from doctor_availability da1_0 join doctors d1_0 on d1_0.id=da1_0.doctor_id join users d1_1 on d1_0.id=d1_1.id where da1_0.availability_id=?
+2026-05-07T20:56:19.094+02:00 DEBUG 31864 --- [backend] [io-8081-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2026-05-07T20:56:19.094+02:00 DEBUG 31864 --- [backend] [io-8081-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[Appointment(appointmentId=12, patient=Patient(gender=Male, address=Nyarugenge, Kigali, dateOfBirth= (truncated)...]
+2026-05-07T20:56:19.096+02:00 DEBUG 31864 --- [backend] [io-8081-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-05-07T20:56:19.104+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-8] org.hibernate.SQL                        : select u1_0.id,case when u1_1.id is not null then 1 when u1_2.id is not null then 2 when u1_3.id is not null then 3 when u1_0.id is not null then 0 end,u1_0.email,u1_0.flagged,u1_0.fullname,u1_0.password,u1_0.phone,u1_0.role,u1_1.permission,u1_2.qualification,u1_2.specialization,u1_3.address,u1_3.blood_group,u1_3.date_of_birth,u1_3.gender from users u1_0 left join admins u1_1 on u1_0.id=u1_1.id left join doctors u1_2 on u1_0.id=u1_2.id left join patients u1_3 on u1_0.id=u1_3.id where u1_0.email=?
+Hibernate: select u1_0.id,case when u1_1.id is not null then 1 when u1_2.id is not null then 2 when u1_3.id is not null then 3 when u1_0.id is not null then 0 end,u1_0.email,u1_0.flagged,u1_0.fullname,u1_0.password,u1_0.phone,u1_0.role,u1_1.permission,u1_2.qualification,u1_2.specialization,u1_3.address,u1_3.blood_group,u1_3.date_of_birth,u1_3.gender from users u1_0 left join admins u1_1 on u1_0.id=u1_1.id left join doctors u1_2 on u1_0.id=u1_2.id left join patients u1_3 on u1_0.id=u1_3.id where u1_0.email=?
+2026-05-07T20:56:19.111+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/api/patients/17/appointments", parameters={}
+2026-05-07T20:56:19.112+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.auca.backend.controller.PatientController#getAppointments(Long)
+2026-05-07T20:56:19.112+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-8] org.hibernate.SQL                        : select a1_0.appointment_id,a1_0.availability_id,a1_0.date,a1_0.doctor_id,a1_0.note,a1_0.patient_id,a1_0.status,a1_0.time from appointments a1_0 where a1_0.patient_id=?
+Hibernate: select a1_0.appointment_id,a1_0.availability_id,a1_0.date,a1_0.doctor_id,a1_0.note,a1_0.patient_id,a1_0.status,a1_0.time from appointments a1_0 where a1_0.patient_id=?
+2026-05-07T20:56:19.114+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-8] org.hibernate.SQL                        : select da1_0.availability_id,da1_0.is_available,da1_0.date,da1_0.doctor_id,d1_0.id,d1_1.email,d1_1.flagged,d1_1.fullname,d1_1.password,d1_1.phone,d1_1.role,d1_0.qualification,d1_0.specialization,da1_0.end_time,da1_0.start_time from doctor_availability da1_0 join doctors d1_0 on d1_0.id=da1_0.doctor_id join users d1_1 on d1_0.id=d1_1.id where da1_0.availability_id=?
+Hibernate: select da1_0.availability_id,da1_0.is_available,da1_0.date,da1_0.doctor_id,d1_0.id,d1_1.email,d1_1.flagged,d1_1.fullname,d1_1.password,d1_1.phone,d1_1.role,d1_0.qualification,d1_0.specialization,da1_0.end_time,da1_0.start_time from doctor_availability da1_0 join doctors d1_0 on d1_0.id=da1_0.doctor_id join users d1_1 on d1_0.id=d1_1.id where da1_0.availability_id=?
+2026-05-07T20:56:19.116+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-8] org.hibernate.SQL                        : select p1_0.id,p1_1.email,p1_1.flagged,p1_1.fullname,p1_1.password,p1_1.phone,p1_1.role,p1_0.address,p1_0.blood_group,p1_0.date_of_birth,p1_0.gender from patients p1_0 join users p1_1 on p1_0.id=p1_1.id where p1_0.id=?
+Hibernate: select p1_0.id,p1_1.email,p1_1.flagged,p1_1.fullname,p1_1.password,p1_1.phone,p1_1.role,p1_0.address,p1_0.blood_group,p1_0.date_of_birth,p1_0.gender from patients p1_0 join users p1_1 on p1_0.id=p1_1.id where p1_0.id=?
+2026-05-07T20:56:19.118+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-8] org.hibernate.SQL                        : select da1_0.availability_id,da1_0.is_available,da1_0.date,da1_0.doctor_id,d1_0.id,d1_1.email,d1_1.flagged,d1_1.fullname,d1_1.password,d1_1.phone,d1_1.role,d1_0.qualification,d1_0.specialization,da1_0.end_time,da1_0.start_time from doctor_availability da1_0 join doctors d1_0 on d1_0.id=da1_0.doctor_id join users d1_1 on d1_0.id=d1_1.id where da1_0.availability_id=?
+Hibernate: select da1_0.availability_id,da1_0.is_available,da1_0.date,da1_0.doctor_id,d1_0.id,d1_1.email,d1_1.flagged,d1_1.fullname,d1_1.password,d1_1.phone,d1_1.role,d1_0.qualification,d1_0.specialization,da1_0.end_time,da1_0.start_time from doctor_availability da1_0 join doctors d1_0 on d1_0.id=da1_0.doctor_id join users d1_1 on d1_0.id=d1_1.id where da1_0.availability_id=?
+2026-05-07T20:56:19.120+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2026-05-07T20:56:19.120+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[Appointment(appointmentId=12, patient=Patient(gender=Male, address=Nyarugenge, Kigali, dateOfBirth= (truncated)...]
+2026-05-07T20:56:19.121+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-05-07T21:05:21.132+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-3] o.s.web.servlet.DispatcherServlet        : POST "/api/auth/login", parameters={}
+2026-05-07T21:05:21.136+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.auca.backend.controller.AuthController#login(LoginRequest)
+2026-05-07T21:05:21.149+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [LoginRequest(email=eric.habimana@dhams.com, password=Patient@123)]
+2026-05-07T21:05:21.165+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-3] org.hibernate.SQL                        : select u1_0.id,case when u1_1.id is not null then 1 when u1_2.id is not null then 2 when u1_3.id is not null then 3 when u1_0.id is not null then 0 end,u1_0.email,u1_0.flagged,u1_0.fullname,u1_0.password,u1_0.phone,u1_0.role,u1_1.permission,u1_2.qualification,u1_2.specialization,u1_3.address,u1_3.blood_group,u1_3.date_of_birth,u1_3.gender from users u1_0 left join admins u1_1 on u1_0.id=u1_1.id left join doctors u1_2 on u1_0.id=u1_2.id left join patients u1_3 on u1_0.id=u1_3.id where u1_0.email=?
+Hibernate: select u1_0.id,case when u1_1.id is not null then 1 when u1_2.id is not null then 2 when u1_3.id is not null then 3 when u1_0.id is not null then 0 end,u1_0.email,u1_0.flagged,u1_0.fullname,u1_0.password,u1_0.phone,u1_0.role,u1_1.permission,u1_2.qualification,u1_2.specialization,u1_3.address,u1_3.blood_group,u1_3.date_of_birth,u1_3.gender from users u1_0 left join admins u1_1 on u1_0.id=u1_1.id left join doctors u1_2 on u1_0.id=u1_2.id left join patients u1_3 on u1_0.id=u1_3.id where u1_0.email=?
+2026-05-07T21:05:21.260+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-3] org.hibernate.SQL                        : select u1_0.id,case when u1_1.id is not null then 1 when u1_2.id is not null then 2 when u1_3.id is not null then 3 when u1_0.id is not null then 0 end,u1_0.email,u1_0.flagged,u1_0.fullname,u1_0.password,u1_0.phone,u1_0.role,u1_1.permission,u1_2.qualification,u1_2.specialization,u1_3.address,u1_3.blood_group,u1_3.date_of_birth,u1_3.gender from users u1_0 left join admins u1_1 on u1_0.id=u1_1.id left join doctors u1_2 on u1_0.id=u1_2.id left join patients u1_3 on u1_0.id=u1_3.id where u1_0.email=?
+Hibernate: select u1_0.id,case when u1_1.id is not null then 1 when u1_2.id is not null then 2 when u1_3.id is not null then 3 when u1_0.id is not null then 0 end,u1_0.email,u1_0.flagged,u1_0.fullname,u1_0.password,u1_0.phone,u1_0.role,u1_1.permission,u1_2.qualification,u1_2.specialization,u1_3.address,u1_3.blood_group,u1_3.date_of_birth,u1_3.gender from users u1_0 left join admins u1_1 on u1_0.id=u1_1.id left join doctors u1_2 on u1_0.id=u1_2.id left join patients u1_3 on u1_0.id=u1_3.id where u1_0.email=?
+2026-05-07T21:05:21.263+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-3] org.hibernate.SQL                        : select u1_0.id,case when u1_1.id is not null then 1 when u1_2.id is not null then 2 when u1_3.id is not null then 3 when u1_0.id is not null then 0 end,u1_0.email,u1_0.flagged,u1_0.fullname,u1_0.password,u1_0.phone,u1_0.role,u1_1.permission,u1_2.qualification,u1_2.specialization,u1_3.address,u1_3.blood_group,u1_3.date_of_birth,u1_3.gender from users u1_0 left join admins u1_1 on u1_0.id=u1_1.id left join doctors u1_2 on u1_0.id=u1_2.id left join patients u1_3 on u1_0.id=u1_3.id where u1_0.email=?
+Hibernate: select u1_0.id,case when u1_1.id is not null then 1 when u1_2.id is not null then 2 when u1_3.id is not null then 3 when u1_0.id is not null then 0 end,u1_0.email,u1_0.flagged,u1_0.fullname,u1_0.password,u1_0.phone,u1_0.role,u1_1.permission,u1_2.qualification,u1_2.specialization,u1_3.address,u1_3.blood_group,u1_3.date_of_birth,u1_3.gender from users u1_0 left join admins u1_1 on u1_0.id=u1_1.id left join doctors u1_2 on u1_0.id=u1_2.id left join patients u1_3 on u1_0.id=u1_3.id where u1_0.email=?
+2026-05-07T21:05:21.275+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2026-05-07T21:05:21.275+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [AuthResponse(userId=17, fullName=Eric Habimana, token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJlcmljLmhhYmltY (truncated)...]
+2026-05-07T21:05:21.278+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-05-07T21:05:21.352+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-1] org.hibernate.SQL                        : select u1_0.id,case when u1_1.id is not null then 1 when u1_2.id is not null then 2 when u1_3.id is not null then 3 when u1_0.id is not null then 0 end,u1_0.email,u1_0.flagged,u1_0.fullname,u1_0.password,u1_0.phone,u1_0.role,u1_1.permission,u1_2.qualification,u1_2.specialization,u1_3.address,u1_3.blood_group,u1_3.date_of_birth,u1_3.gender from users u1_0 left join admins u1_1 on u1_0.id=u1_1.id left join doctors u1_2 on u1_0.id=u1_2.id left join patients u1_3 on u1_0.id=u1_3.id where u1_0.email=?
+Hibernate: select u1_0.id,case when u1_1.id is not null then 1 when u1_2.id is not null then 2 when u1_3.id is not null then 3 when u1_0.id is not null then 0 end,u1_0.email,u1_0.flagged,u1_0.fullname,u1_0.password,u1_0.phone,u1_0.role,u1_1.permission,u1_2.qualification,u1_2.specialization,u1_3.address,u1_3.blood_group,u1_3.date_of_birth,u1_3.gender from users u1_0 left join admins u1_1 on u1_0.id=u1_1.id left join doctors u1_2 on u1_0.id=u1_2.id left join patients u1_3 on u1_0.id=u1_3.id where u1_0.email=?
+2026-05-07T21:05:21.360+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/api/patients/17/appointments", parameters={}
+2026-05-07T21:05:21.361+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.auca.backend.controller.PatientController#getAppointments(Long)
+2026-05-07T21:05:21.363+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-1] org.hibernate.SQL                        : select a1_0.appointment_id,a1_0.availability_id,a1_0.date,a1_0.doctor_id,a1_0.note,a1_0.patient_id,a1_0.status,a1_0.time from appointments a1_0 where a1_0.patient_id=?
+Hibernate: select a1_0.appointment_id,a1_0.availability_id,a1_0.date,a1_0.doctor_id,a1_0.note,a1_0.patient_id,a1_0.status,a1_0.time from appointments a1_0 where a1_0.patient_id=?
+2026-05-07T21:05:21.366+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-1] org.hibernate.SQL                        : select da1_0.availability_id,da1_0.is_available,da1_0.date,da1_0.doctor_id,d1_0.id,d1_1.email,d1_1.flagged,d1_1.fullname,d1_1.password,d1_1.phone,d1_1.role,d1_0.qualification,d1_0.specialization,da1_0.end_time,da1_0.start_time from doctor_availability da1_0 join doctors d1_0 on d1_0.id=da1_0.doctor_id join users d1_1 on d1_0.id=d1_1.id where da1_0.availability_id=?
+Hibernate: select da1_0.availability_id,da1_0.is_available,da1_0.date,da1_0.doctor_id,d1_0.id,d1_1.email,d1_1.flagged,d1_1.fullname,d1_1.password,d1_1.phone,d1_1.role,d1_0.qualification,d1_0.specialization,da1_0.end_time,da1_0.start_time from doctor_availability da1_0 join doctors d1_0 on d1_0.id=da1_0.doctor_id join users d1_1 on d1_0.id=d1_1.id where da1_0.availability_id=?
+2026-05-07T21:05:21.369+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-1] org.hibernate.SQL                        : select p1_0.id,p1_1.email,p1_1.flagged,p1_1.fullname,p1_1.password,p1_1.phone,p1_1.role,p1_0.address,p1_0.blood_group,p1_0.date_of_birth,p1_0.gender from patients p1_0 join users p1_1 on p1_0.id=p1_1.id where p1_0.id=?
+Hibernate: select p1_0.id,p1_1.email,p1_1.flagged,p1_1.fullname,p1_1.password,p1_1.phone,p1_1.role,p1_0.address,p1_0.blood_group,p1_0.date_of_birth,p1_0.gender from patients p1_0 join users p1_1 on p1_0.id=p1_1.id where p1_0.id=?
+2026-05-07T21:05:21.370+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-4] org.hibernate.SQL                        : select u1_0.id,case when u1_1.id is not null then 1 when u1_2.id is not null then 2 when u1_3.id is not null then 3 when u1_0.id is not null then 0 end,u1_0.email,u1_0.flagged,u1_0.fullname,u1_0.password,u1_0.phone,u1_0.role,u1_1.permission,u1_2.qualification,u1_2.specialization,u1_3.address,u1_3.blood_group,u1_3.date_of_birth,u1_3.gender from users u1_0 left join admins u1_1 on u1_0.id=u1_1.id left join doctors u1_2 on u1_0.id=u1_2.id left join patients u1_3 on u1_0.id=u1_3.id where u1_0.email=?
+Hibernate: select u1_0.id,case when u1_1.id is not null then 1 when u1_2.id is not null then 2 when u1_3.id is not null then 3 when u1_0.id is not null then 0 end,u1_0.email,u1_0.flagged,u1_0.fullname,u1_0.password,u1_0.phone,u1_0.role,u1_1.permission,u1_2.qualification,u1_2.specialization,u1_3.address,u1_3.blood_group,u1_3.date_of_birth,u1_3.gender from users u1_0 left join admins u1_1 on u1_0.id=u1_1.id left join doctors u1_2 on u1_0.id=u1_2.id left join patients u1_3 on u1_0.id=u1_3.id where u1_0.email=?
+2026-05-07T21:05:21.372+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-1] org.hibernate.SQL                        : select da1_0.availability_id,da1_0.is_available,da1_0.date,da1_0.doctor_id,d1_0.id,d1_1.email,d1_1.flagged,d1_1.fullname,d1_1.password,d1_1.phone,d1_1.role,d1_0.qualification,d1_0.specialization,da1_0.end_time,da1_0.start_time from doctor_availability da1_0 join doctors d1_0 on d1_0.id=da1_0.doctor_id join users d1_1 on d1_0.id=d1_1.id where da1_0.availability_id=?
+Hibernate: select da1_0.availability_id,da1_0.is_available,da1_0.date,da1_0.doctor_id,d1_0.id,d1_1.email,d1_1.flagged,d1_1.fullname,d1_1.password,d1_1.phone,d1_1.role,d1_0.qualification,d1_0.specialization,da1_0.end_time,da1_0.start_time from doctor_availability da1_0 join doctors d1_0 on d1_0.id=da1_0.doctor_id join users d1_1 on d1_0.id=d1_1.id where da1_0.availability_id=?
+2026-05-07T21:05:21.374+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2026-05-07T21:05:21.376+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[Appointment(appointmentId=12, patient=Patient(gender=Male, address=Nyarugenge, Kigali, dateOfBirth= (truncated)...]
+2026-05-07T21:05:21.377+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/api/patients/17/records", parameters={}
+2026-05-07T21:05:21.378+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.auca.backend.controller.PatientController#getMedicalHistory(Long)
+2026-05-07T21:05:21.380+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-05-07T21:05:21.381+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-4] org.hibernate.SQL                        : select mr1_0.record_id,mr1_0.appointment_id,mr1_0.diagnosis,mr1_0.note,mr1_0.patient_id,mr1_0.prescription,mr1_0.visit_date from medical_records mr1_0 where mr1_0.patient_id=?
+Hibernate: select mr1_0.record_id,mr1_0.appointment_id,mr1_0.diagnosis,mr1_0.note,mr1_0.patient_id,mr1_0.prescription,mr1_0.visit_date from medical_records mr1_0 where mr1_0.patient_id=?
+2026-05-07T21:05:21.384+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2026-05-07T21:05:21.384+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[]]
+2026-05-07T21:05:21.385+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-05-07T21:05:21.390+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-5] org.hibernate.SQL                        : select u1_0.id,case when u1_1.id is not null then 1 when u1_2.id is not null then 2 when u1_3.id is not null then 3 when u1_0.id is not null then 0 end,u1_0.email,u1_0.flagged,u1_0.fullname,u1_0.password,u1_0.phone,u1_0.role,u1_1.permission,u1_2.qualification,u1_2.specialization,u1_3.address,u1_3.blood_group,u1_3.date_of_birth,u1_3.gender from users u1_0 left join admins u1_1 on u1_0.id=u1_1.id left join doctors u1_2 on u1_0.id=u1_2.id left join patients u1_3 on u1_0.id=u1_3.id where u1_0.email=?
+Hibernate: select u1_0.id,case when u1_1.id is not null then 1 when u1_2.id is not null then 2 when u1_3.id is not null then 3 when u1_0.id is not null then 0 end,u1_0.email,u1_0.flagged,u1_0.fullname,u1_0.password,u1_0.phone,u1_0.role,u1_1.permission,u1_2.qualification,u1_2.specialization,u1_3.address,u1_3.blood_group,u1_3.date_of_birth,u1_3.gender from users u1_0 left join admins u1_1 on u1_0.id=u1_1.id left join doctors u1_2 on u1_0.id=u1_2.id left join patients u1_3 on u1_0.id=u1_3.id where u1_0.email=?
+2026-05-07T21:05:21.395+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-7] org.hibernate.SQL                        : select u1_0.id,case when u1_1.id is not null then 1 when u1_2.id is not null then 2 when u1_3.id is not null then 3 when u1_0.id is not null then 0 end,u1_0.email,u1_0.flagged,u1_0.fullname,u1_0.password,u1_0.phone,u1_0.role,u1_1.permission,u1_2.qualification,u1_2.specialization,u1_3.address,u1_3.blood_group,u1_3.date_of_birth,u1_3.gender from users u1_0 left join admins u1_1 on u1_0.id=u1_1.id left join doctors u1_2 on u1_0.id=u1_2.id left join patients u1_3 on u1_0.id=u1_3.id where u1_0.email=?
+Hibernate: select u1_0.id,case when u1_1.id is not null then 1 when u1_2.id is not null then 2 when u1_3.id is not null then 3 when u1_0.id is not null then 0 end,u1_0.email,u1_0.flagged,u1_0.fullname,u1_0.password,u1_0.phone,u1_0.role,u1_1.permission,u1_2.qualification,u1_2.specialization,u1_3.address,u1_3.blood_group,u1_3.date_of_birth,u1_3.gender from users u1_0 left join admins u1_1 on u1_0.id=u1_1.id left join doctors u1_2 on u1_0.id=u1_2.id left join patients u1_3 on u1_0.id=u1_3.id where u1_0.email=?
+2026-05-07T21:05:21.397+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/api/patients/17/appointments", parameters={}
+2026-05-07T21:05:21.398+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.auca.backend.controller.PatientController#getAppointments(Long)
+2026-05-07T21:05:21.399+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-5] org.hibernate.SQL                        : select a1_0.appointment_id,a1_0.availability_id,a1_0.date,a1_0.doctor_id,a1_0.note,a1_0.patient_id,a1_0.status,a1_0.time from appointments a1_0 where a1_0.patient_id=?
+Hibernate: select a1_0.appointment_id,a1_0.availability_id,a1_0.date,a1_0.doctor_id,a1_0.note,a1_0.patient_id,a1_0.status,a1_0.time from appointments a1_0 where a1_0.patient_id=?
+2026-05-07T21:05:21.402+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/api/patients/17/records", parameters={}
+2026-05-07T21:05:21.402+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.auca.backend.controller.PatientController#getMedicalHistory(Long)
+2026-05-07T21:05:21.403+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-5] org.hibernate.SQL                        : select da1_0.availability_id,da1_0.is_available,da1_0.date,da1_0.doctor_id,d1_0.id,d1_1.email,d1_1.flagged,d1_1.fullname,d1_1.password,d1_1.phone,d1_1.role,d1_0.qualification,d1_0.specialization,da1_0.end_time,da1_0.start_time from doctor_availability da1_0 join doctors d1_0 on d1_0.id=da1_0.doctor_id join users d1_1 on d1_0.id=d1_1.id where da1_0.availability_id=?
+Hibernate: select da1_0.availability_id,da1_0.is_available,da1_0.date,da1_0.doctor_id,d1_0.id,d1_1.email,d1_1.flagged,d1_1.fullname,d1_1.password,d1_1.phone,d1_1.role,d1_0.qualification,d1_0.specialization,da1_0.end_time,da1_0.start_time from doctor_availability da1_0 join doctors d1_0 on d1_0.id=da1_0.doctor_id join users d1_1 on d1_0.id=d1_1.id where da1_0.availability_id=?
+2026-05-07T21:05:21.403+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-7] org.hibernate.SQL                        : select mr1_0.record_id,mr1_0.appointment_id,mr1_0.diagnosis,mr1_0.note,mr1_0.patient_id,mr1_0.prescription,mr1_0.visit_date from medical_records mr1_0 where mr1_0.patient_id=?
+Hibernate: select mr1_0.record_id,mr1_0.appointment_id,mr1_0.diagnosis,mr1_0.note,mr1_0.patient_id,mr1_0.prescription,mr1_0.visit_date from medical_records mr1_0 where mr1_0.patient_id=?
+2026-05-07T21:05:21.405+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2026-05-07T21:05:21.406+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[]]
+2026-05-07T21:05:21.406+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-5] org.hibernate.SQL                        : select p1_0.id,p1_1.email,p1_1.flagged,p1_1.fullname,p1_1.password,p1_1.phone,p1_1.role,p1_0.address,p1_0.blood_group,p1_0.date_of_birth,p1_0.gender from patients p1_0 join users p1_1 on p1_0.id=p1_1.id where p1_0.id=?
+Hibernate: select p1_0.id,p1_1.email,p1_1.flagged,p1_1.fullname,p1_1.password,p1_1.phone,p1_1.role,p1_0.address,p1_0.blood_group,p1_0.date_of_birth,p1_0.gender from patients p1_0 join users p1_1 on p1_0.id=p1_1.id where p1_0.id=?
+2026-05-07T21:05:21.407+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-05-07T21:05:21.407+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-5] org.hibernate.SQL                        : select da1_0.availability_id,da1_0.is_available,da1_0.date,da1_0.doctor_id,d1_0.id,d1_1.email,d1_1.flagged,d1_1.fullname,d1_1.password,d1_1.phone,d1_1.role,d1_0.qualification,d1_0.specialization,da1_0.end_time,da1_0.start_time from doctor_availability da1_0 join doctors d1_0 on d1_0.id=da1_0.doctor_id join users d1_1 on d1_0.id=d1_1.id where da1_0.availability_id=?
+Hibernate: select da1_0.availability_id,da1_0.is_available,da1_0.date,da1_0.doctor_id,d1_0.id,d1_1.email,d1_1.flagged,d1_1.fullname,d1_1.password,d1_1.phone,d1_1.role,d1_0.qualification,d1_0.specialization,da1_0.end_time,da1_0.start_time from doctor_availability da1_0 join doctors d1_0 on d1_0.id=da1_0.doctor_id join users d1_1 on d1_0.id=d1_1.id where da1_0.availability_id=?
+2026-05-07T21:05:21.409+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2026-05-07T21:05:21.410+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[Appointment(appointmentId=12, patient=Patient(gender=Male, address=Nyarugenge, Kigali, dateOfBirth= (truncated)...]
+2026-05-07T21:05:21.412+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-05-07T21:05:26.137+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-6] org.hibernate.SQL                        : select u1_0.id,case when u1_1.id is not null then 1 when u1_2.id is not null then 2 when u1_3.id is not null then 3 when u1_0.id is not null then 0 end,u1_0.email,u1_0.flagged,u1_0.fullname,u1_0.password,u1_0.phone,u1_0.role,u1_1.permission,u1_2.qualification,u1_2.specialization,u1_3.address,u1_3.blood_group,u1_3.date_of_birth,u1_3.gender from users u1_0 left join admins u1_1 on u1_0.id=u1_1.id left join doctors u1_2 on u1_0.id=u1_2.id left join patients u1_3 on u1_0.id=u1_3.id where u1_0.email=?
+Hibernate: select u1_0.id,case when u1_1.id is not null then 1 when u1_2.id is not null then 2 when u1_3.id is not null then 3 when u1_0.id is not null then 0 end,u1_0.email,u1_0.flagged,u1_0.fullname,u1_0.password,u1_0.phone,u1_0.role,u1_1.permission,u1_2.qualification,u1_2.specialization,u1_3.address,u1_3.blood_group,u1_3.date_of_birth,u1_3.gender from users u1_0 left join admins u1_1 on u1_0.id=u1_1.id left join doctors u1_2 on u1_0.id=u1_2.id left join patients u1_3 on u1_0.id=u1_3.id where u1_0.email=?
+2026-05-07T21:05:26.146+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/api/patients/17/appointments", parameters={}
+2026-05-07T21:05:26.147+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.auca.backend.controller.PatientController#getAppointments(Long)
+2026-05-07T21:05:26.149+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-6] org.hibernate.SQL                        : select a1_0.appointment_id,a1_0.availability_id,a1_0.date,a1_0.doctor_id,a1_0.note,a1_0.patient_id,a1_0.status,a1_0.time from appointments a1_0 where a1_0.patient_id=?
+Hibernate: select a1_0.appointment_id,a1_0.availability_id,a1_0.date,a1_0.doctor_id,a1_0.note,a1_0.patient_id,a1_0.status,a1_0.time from appointments a1_0 where a1_0.patient_id=?
+2026-05-07T21:05:26.150+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-6] org.hibernate.SQL                        : select da1_0.availability_id,da1_0.is_available,da1_0.date,da1_0.doctor_id,d1_0.id,d1_1.email,d1_1.flagged,d1_1.fullname,d1_1.password,d1_1.phone,d1_1.role,d1_0.qualification,d1_0.specialization,da1_0.end_time,da1_0.start_time from doctor_availability da1_0 join doctors d1_0 on d1_0.id=da1_0.doctor_id join users d1_1 on d1_0.id=d1_1.id where da1_0.availability_id=?
+Hibernate: select da1_0.availability_id,da1_0.is_available,da1_0.date,da1_0.doctor_id,d1_0.id,d1_1.email,d1_1.flagged,d1_1.fullname,d1_1.password,d1_1.phone,d1_1.role,d1_0.qualification,d1_0.specialization,da1_0.end_time,da1_0.start_time from doctor_availability da1_0 join doctors d1_0 on d1_0.id=da1_0.doctor_id join users d1_1 on d1_0.id=d1_1.id where da1_0.availability_id=?
+2026-05-07T21:05:26.153+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-6] org.hibernate.SQL                        : select p1_0.id,p1_1.email,p1_1.flagged,p1_1.fullname,p1_1.password,p1_1.phone,p1_1.role,p1_0.address,p1_0.blood_group,p1_0.date_of_birth,p1_0.gender from patients p1_0 join users p1_1 on p1_0.id=p1_1.id where p1_0.id=?
+Hibernate: select p1_0.id,p1_1.email,p1_1.flagged,p1_1.fullname,p1_1.password,p1_1.phone,p1_1.role,p1_0.address,p1_0.blood_group,p1_0.date_of_birth,p1_0.gender from patients p1_0 join users p1_1 on p1_0.id=p1_1.id where p1_0.id=?
+2026-05-07T21:05:26.156+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-6] org.hibernate.SQL                        : select da1_0.availability_id,da1_0.is_available,da1_0.date,da1_0.doctor_id,d1_0.id,d1_1.email,d1_1.flagged,d1_1.fullname,d1_1.password,d1_1.phone,d1_1.role,d1_0.qualification,d1_0.specialization,da1_0.end_time,da1_0.start_time from doctor_availability da1_0 join doctors d1_0 on d1_0.id=da1_0.doctor_id join users d1_1 on d1_0.id=d1_1.id where da1_0.availability_id=?
+Hibernate: select da1_0.availability_id,da1_0.is_available,da1_0.date,da1_0.doctor_id,d1_0.id,d1_1.email,d1_1.flagged,d1_1.fullname,d1_1.password,d1_1.phone,d1_1.role,d1_0.qualification,d1_0.specialization,da1_0.end_time,da1_0.start_time from doctor_availability da1_0 join doctors d1_0 on d1_0.id=da1_0.doctor_id join users d1_1 on d1_0.id=d1_1.id where da1_0.availability_id=?
+2026-05-07T21:05:26.158+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2026-05-07T21:05:26.158+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[Appointment(appointmentId=12, patient=Patient(gender=Male, address=Nyarugenge, Kigali, dateOfBirth= (truncated)...]
+2026-05-07T21:05:26.160+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-05-07T21:05:26.169+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-9] org.hibernate.SQL                        : select u1_0.id,case when u1_1.id is not null then 1 when u1_2.id is not null then 2 when u1_3.id is not null then 3 when u1_0.id is not null then 0 end,u1_0.email,u1_0.flagged,u1_0.fullname,u1_0.password,u1_0.phone,u1_0.role,u1_1.permission,u1_2.qualification,u1_2.specialization,u1_3.address,u1_3.blood_group,u1_3.date_of_birth,u1_3.gender from users u1_0 left join admins u1_1 on u1_0.id=u1_1.id left join doctors u1_2 on u1_0.id=u1_2.id left join patients u1_3 on u1_0.id=u1_3.id where u1_0.email=?
+Hibernate: select u1_0.id,case when u1_1.id is not null then 1 when u1_2.id is not null then 2 when u1_3.id is not null then 3 when u1_0.id is not null then 0 end,u1_0.email,u1_0.flagged,u1_0.fullname,u1_0.password,u1_0.phone,u1_0.role,u1_1.permission,u1_2.qualification,u1_2.specialization,u1_3.address,u1_3.blood_group,u1_3.date_of_birth,u1_3.gender from users u1_0 left join admins u1_1 on u1_0.id=u1_1.id left join doctors u1_2 on u1_0.id=u1_2.id left join patients u1_3 on u1_0.id=u1_3.id where u1_0.email=?
+2026-05-07T21:05:26.176+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/api/patients/17/appointments", parameters={}
+2026-05-07T21:05:26.177+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.auca.backend.controller.PatientController#getAppointments(Long)
+2026-05-07T21:05:26.178+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-9] org.hibernate.SQL                        : select a1_0.appointment_id,a1_0.availability_id,a1_0.date,a1_0.doctor_id,a1_0.note,a1_0.patient_id,a1_0.status,a1_0.time from appointments a1_0 where a1_0.patient_id=?
+Hibernate: select a1_0.appointment_id,a1_0.availability_id,a1_0.date,a1_0.doctor_id,a1_0.note,a1_0.patient_id,a1_0.status,a1_0.time from appointments a1_0 where a1_0.patient_id=?
+2026-05-07T21:05:26.178+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-9] org.hibernate.SQL                        : select da1_0.availability_id,da1_0.is_available,da1_0.date,da1_0.doctor_id,d1_0.id,d1_1.email,d1_1.flagged,d1_1.fullname,d1_1.password,d1_1.phone,d1_1.role,d1_0.qualification,d1_0.specialization,da1_0.end_time,da1_0.start_time from doctor_availability da1_0 join doctors d1_0 on d1_0.id=da1_0.doctor_id join users d1_1 on d1_0.id=d1_1.id where da1_0.availability_id=?
+Hibernate: select da1_0.availability_id,da1_0.is_available,da1_0.date,da1_0.doctor_id,d1_0.id,d1_1.email,d1_1.flagged,d1_1.fullname,d1_1.password,d1_1.phone,d1_1.role,d1_0.qualification,d1_0.specialization,da1_0.end_time,da1_0.start_time from doctor_availability da1_0 join doctors d1_0 on d1_0.id=da1_0.doctor_id join users d1_1 on d1_0.id=d1_1.id where da1_0.availability_id=?
+2026-05-07T21:05:26.180+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-9] org.hibernate.SQL                        : select p1_0.id,p1_1.email,p1_1.flagged,p1_1.fullname,p1_1.password,p1_1.phone,p1_1.role,p1_0.address,p1_0.blood_group,p1_0.date_of_birth,p1_0.gender from patients p1_0 join users p1_1 on p1_0.id=p1_1.id where p1_0.id=?
+Hibernate: select p1_0.id,p1_1.email,p1_1.flagged,p1_1.fullname,p1_1.password,p1_1.phone,p1_1.role,p1_0.address,p1_0.blood_group,p1_0.date_of_birth,p1_0.gender from patients p1_0 join users p1_1 on p1_0.id=p1_1.id where p1_0.id=?
+2026-05-07T21:05:26.182+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-9] org.hibernate.SQL                        : select da1_0.availability_id,da1_0.is_available,da1_0.date,da1_0.doctor_id,d1_0.id,d1_1.email,d1_1.flagged,d1_1.fullname,d1_1.password,d1_1.phone,d1_1.role,d1_0.qualification,d1_0.specialization,da1_0.end_time,da1_0.start_time from doctor_availability da1_0 join doctors d1_0 on d1_0.id=da1_0.doctor_id join users d1_1 on d1_0.id=d1_1.id where da1_0.availability_id=?
+Hibernate: select da1_0.availability_id,da1_0.is_available,da1_0.date,da1_0.doctor_id,d1_0.id,d1_1.email,d1_1.flagged,d1_1.fullname,d1_1.password,d1_1.phone,d1_1.role,d1_0.qualification,d1_0.specialization,da1_0.end_time,da1_0.start_time from doctor_availability da1_0 join doctors d1_0 on d1_0.id=da1_0.doctor_id join users d1_1 on d1_0.id=d1_1.id where da1_0.availability_id=?
+2026-05-07T21:05:26.184+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2026-05-07T21:05:26.185+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[Appointment(appointmentId=12, patient=Patient(gender=Male, address=Nyarugenge, Kigali, dateOfBirth= (truncated)...]
+2026-05-07T21:05:26.186+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-05-07T21:05:27.209+02:00 DEBUG 31864 --- [backend] [io-8081-exec-10] org.hibernate.SQL                        : select u1_0.id,case when u1_1.id is not null then 1 when u1_2.id is not null then 2 when u1_3.id is not null then 3 when u1_0.id is not null then 0 end,u1_0.email,u1_0.flagged,u1_0.fullname,u1_0.password,u1_0.phone,u1_0.role,u1_1.permission,u1_2.qualification,u1_2.specialization,u1_3.address,u1_3.blood_group,u1_3.date_of_birth,u1_3.gender from users u1_0 left join admins u1_1 on u1_0.id=u1_1.id left join doctors u1_2 on u1_0.id=u1_2.id left join patients u1_3 on u1_0.id=u1_3.id where u1_0.email=?
+Hibernate: select u1_0.id,case when u1_1.id is not null then 1 when u1_2.id is not null then 2 when u1_3.id is not null then 3 when u1_0.id is not null then 0 end,u1_0.email,u1_0.flagged,u1_0.fullname,u1_0.password,u1_0.phone,u1_0.role,u1_1.permission,u1_2.qualification,u1_2.specialization,u1_3.address,u1_3.blood_group,u1_3.date_of_birth,u1_3.gender from users u1_0 left join admins u1_1 on u1_0.id=u1_1.id left join doctors u1_2 on u1_0.id=u1_2.id left join patients u1_3 on u1_0.id=u1_3.id where u1_0.email=?
+2026-05-07T21:05:27.216+02:00 DEBUG 31864 --- [backend] [io-8081-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/api/patients/17/records", parameters={}
+2026-05-07T21:05:27.217+02:00 DEBUG 31864 --- [backend] [io-8081-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.auca.backend.controller.PatientController#getMedicalHistory(Long)
+2026-05-07T21:05:27.218+02:00 DEBUG 31864 --- [backend] [io-8081-exec-10] org.hibernate.SQL                        : select mr1_0.record_id,mr1_0.appointment_id,mr1_0.diagnosis,mr1_0.note,mr1_0.patient_id,mr1_0.prescription,mr1_0.visit_date from medical_records mr1_0 where mr1_0.patient_id=?
+Hibernate: select mr1_0.record_id,mr1_0.appointment_id,mr1_0.diagnosis,mr1_0.note,mr1_0.patient_id,mr1_0.prescription,mr1_0.visit_date from medical_records mr1_0 where mr1_0.patient_id=?
+2026-05-07T21:05:27.220+02:00 DEBUG 31864 --- [backend] [io-8081-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2026-05-07T21:05:27.220+02:00 DEBUG 31864 --- [backend] [io-8081-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[]]
+2026-05-07T21:05:27.221+02:00 DEBUG 31864 --- [backend] [io-8081-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-05-07T21:05:27.230+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-8] org.hibernate.SQL                        : select u1_0.id,case when u1_1.id is not null then 1 when u1_2.id is not null then 2 when u1_3.id is not null then 3 when u1_0.id is not null then 0 end,u1_0.email,u1_0.flagged,u1_0.fullname,u1_0.password,u1_0.phone,u1_0.role,u1_1.permission,u1_2.qualification,u1_2.specialization,u1_3.address,u1_3.blood_group,u1_3.date_of_birth,u1_3.gender from users u1_0 left join admins u1_1 on u1_0.id=u1_1.id left join doctors u1_2 on u1_0.id=u1_2.id left join patients u1_3 on u1_0.id=u1_3.id where u1_0.email=?
+Hibernate: select u1_0.id,case when u1_1.id is not null then 1 when u1_2.id is not null then 2 when u1_3.id is not null then 3 when u1_0.id is not null then 0 end,u1_0.email,u1_0.flagged,u1_0.fullname,u1_0.password,u1_0.phone,u1_0.role,u1_1.permission,u1_2.qualification,u1_2.specialization,u1_3.address,u1_3.blood_group,u1_3.date_of_birth,u1_3.gender from users u1_0 left join admins u1_1 on u1_0.id=u1_1.id left join doctors u1_2 on u1_0.id=u1_2.id left join patients u1_3 on u1_0.id=u1_3.id where u1_0.email=?
+2026-05-07T21:05:27.236+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/api/patients/17/records", parameters={}
+2026-05-07T21:05:27.237+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.auca.backend.controller.PatientController#getMedicalHistory(Long)
+2026-05-07T21:05:27.237+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-8] org.hibernate.SQL                        : select mr1_0.record_id,mr1_0.appointment_id,mr1_0.diagnosis,mr1_0.note,mr1_0.patient_id,mr1_0.prescription,mr1_0.visit_date from medical_records mr1_0 where mr1_0.patient_id=?
+Hibernate: select mr1_0.record_id,mr1_0.appointment_id,mr1_0.diagnosis,mr1_0.note,mr1_0.patient_id,mr1_0.prescription,mr1_0.visit_date from medical_records mr1_0 where mr1_0.patient_id=?
+2026-05-07T21:05:27.239+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2026-05-07T21:05:27.239+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[]]
+2026-05-07T21:05:27.240+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-05-07T21:05:28.141+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-2] org.hibernate.SQL                        : select u1_0.id,case when u1_1.id is not null then 1 when u1_2.id is not null then 2 when u1_3.id is not null then 3 when u1_0.id is not null then 0 end,u1_0.email,u1_0.flagged,u1_0.fullname,u1_0.password,u1_0.phone,u1_0.role,u1_1.permission,u1_2.qualification,u1_2.specialization,u1_3.address,u1_3.blood_group,u1_3.date_of_birth,u1_3.gender from users u1_0 left join admins u1_1 on u1_0.id=u1_1.id left join doctors u1_2 on u1_0.id=u1_2.id left join patients u1_3 on u1_0.id=u1_3.id where u1_0.email=?
+Hibernate: select u1_0.id,case when u1_1.id is not null then 1 when u1_2.id is not null then 2 when u1_3.id is not null then 3 when u1_0.id is not null then 0 end,u1_0.email,u1_0.flagged,u1_0.fullname,u1_0.password,u1_0.phone,u1_0.role,u1_1.permission,u1_2.qualification,u1_2.specialization,u1_3.address,u1_3.blood_group,u1_3.date_of_birth,u1_3.gender from users u1_0 left join admins u1_1 on u1_0.id=u1_1.id left join doctors u1_2 on u1_0.id=u1_2.id left join patients u1_3 on u1_0.id=u1_3.id where u1_0.email=?
+2026-05-07T21:05:28.151+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/api/patients/17/appointments", parameters={}
+2026-05-07T21:05:28.152+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.auca.backend.controller.PatientController#getAppointments(Long)
+2026-05-07T21:05:28.153+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-2] org.hibernate.SQL                        : select a1_0.appointment_id,a1_0.availability_id,a1_0.date,a1_0.doctor_id,a1_0.note,a1_0.patient_id,a1_0.status,a1_0.time from appointments a1_0 where a1_0.patient_id=?
+Hibernate: select a1_0.appointment_id,a1_0.availability_id,a1_0.date,a1_0.doctor_id,a1_0.note,a1_0.patient_id,a1_0.status,a1_0.time from appointments a1_0 where a1_0.patient_id=?
+2026-05-07T21:05:28.157+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-2] org.hibernate.SQL                        : select da1_0.availability_id,da1_0.is_available,da1_0.date,da1_0.doctor_id,d1_0.id,d1_1.email,d1_1.flagged,d1_1.fullname,d1_1.password,d1_1.phone,d1_1.role,d1_0.qualification,d1_0.specialization,da1_0.end_time,da1_0.start_time from doctor_availability da1_0 join doctors d1_0 on d1_0.id=da1_0.doctor_id join users d1_1 on d1_0.id=d1_1.id where da1_0.availability_id=?
+Hibernate: select da1_0.availability_id,da1_0.is_available,da1_0.date,da1_0.doctor_id,d1_0.id,d1_1.email,d1_1.flagged,d1_1.fullname,d1_1.password,d1_1.phone,d1_1.role,d1_0.qualification,d1_0.specialization,da1_0.end_time,da1_0.start_time from doctor_availability da1_0 join doctors d1_0 on d1_0.id=da1_0.doctor_id join users d1_1 on d1_0.id=d1_1.id where da1_0.availability_id=?
+2026-05-07T21:05:28.160+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-2] org.hibernate.SQL                        : select p1_0.id,p1_1.email,p1_1.flagged,p1_1.fullname,p1_1.password,p1_1.phone,p1_1.role,p1_0.address,p1_0.blood_group,p1_0.date_of_birth,p1_0.gender from patients p1_0 join users p1_1 on p1_0.id=p1_1.id where p1_0.id=?
+Hibernate: select p1_0.id,p1_1.email,p1_1.flagged,p1_1.fullname,p1_1.password,p1_1.phone,p1_1.role,p1_0.address,p1_0.blood_group,p1_0.date_of_birth,p1_0.gender from patients p1_0 join users p1_1 on p1_0.id=p1_1.id where p1_0.id=?
+2026-05-07T21:05:28.163+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-2] org.hibernate.SQL                        : select da1_0.availability_id,da1_0.is_available,da1_0.date,da1_0.doctor_id,d1_0.id,d1_1.email,d1_1.flagged,d1_1.fullname,d1_1.password,d1_1.phone,d1_1.role,d1_0.qualification,d1_0.specialization,da1_0.end_time,da1_0.start_time from doctor_availability da1_0 join doctors d1_0 on d1_0.id=da1_0.doctor_id join users d1_1 on d1_0.id=d1_1.id where da1_0.availability_id=?
+Hibernate: select da1_0.availability_id,da1_0.is_available,da1_0.date,da1_0.doctor_id,d1_0.id,d1_1.email,d1_1.flagged,d1_1.fullname,d1_1.password,d1_1.phone,d1_1.role,d1_0.qualification,d1_0.specialization,da1_0.end_time,da1_0.start_time from doctor_availability da1_0 join doctors d1_0 on d1_0.id=da1_0.doctor_id join users d1_1 on d1_0.id=d1_1.id where da1_0.availability_id=?
+2026-05-07T21:05:28.166+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2026-05-07T21:05:28.167+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[Appointment(appointmentId=12, patient=Patient(gender=Male, address=Nyarugenge, Kigali, dateOfBirth= (truncated)...]
+2026-05-07T21:05:28.168+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-05-07T21:05:28.178+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-3] org.hibernate.SQL                        : select u1_0.id,case when u1_1.id is not null then 1 when u1_2.id is not null then 2 when u1_3.id is not null then 3 when u1_0.id is not null then 0 end,u1_0.email,u1_0.flagged,u1_0.fullname,u1_0.password,u1_0.phone,u1_0.role,u1_1.permission,u1_2.qualification,u1_2.specialization,u1_3.address,u1_3.blood_group,u1_3.date_of_birth,u1_3.gender from users u1_0 left join admins u1_1 on u1_0.id=u1_1.id left join doctors u1_2 on u1_0.id=u1_2.id left join patients u1_3 on u1_0.id=u1_3.id where u1_0.email=?
+Hibernate: select u1_0.id,case when u1_1.id is not null then 1 when u1_2.id is not null then 2 when u1_3.id is not null then 3 when u1_0.id is not null then 0 end,u1_0.email,u1_0.flagged,u1_0.fullname,u1_0.password,u1_0.phone,u1_0.role,u1_1.permission,u1_2.qualification,u1_2.specialization,u1_3.address,u1_3.blood_group,u1_3.date_of_birth,u1_3.gender from users u1_0 left join admins u1_1 on u1_0.id=u1_1.id left join doctors u1_2 on u1_0.id=u1_2.id left join patients u1_3 on u1_0.id=u1_3.id where u1_0.email=?
+2026-05-07T21:05:28.183+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/api/patients/17/appointments", parameters={}
+2026-05-07T21:05:28.184+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.auca.backend.controller.PatientController#getAppointments(Long)
+2026-05-07T21:05:28.185+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-3] org.hibernate.SQL                        : select a1_0.appointment_id,a1_0.availability_id,a1_0.date,a1_0.doctor_id,a1_0.note,a1_0.patient_id,a1_0.status,a1_0.time from appointments a1_0 where a1_0.patient_id=?
+Hibernate: select a1_0.appointment_id,a1_0.availability_id,a1_0.date,a1_0.doctor_id,a1_0.note,a1_0.patient_id,a1_0.status,a1_0.time from appointments a1_0 where a1_0.patient_id=?
+2026-05-07T21:05:28.187+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-3] org.hibernate.SQL                        : select da1_0.availability_id,da1_0.is_available,da1_0.date,da1_0.doctor_id,d1_0.id,d1_1.email,d1_1.flagged,d1_1.fullname,d1_1.password,d1_1.phone,d1_1.role,d1_0.qualification,d1_0.specialization,da1_0.end_time,da1_0.start_time from doctor_availability da1_0 join doctors d1_0 on d1_0.id=da1_0.doctor_id join users d1_1 on d1_0.id=d1_1.id where da1_0.availability_id=?
+Hibernate: select da1_0.availability_id,da1_0.is_available,da1_0.date,da1_0.doctor_id,d1_0.id,d1_1.email,d1_1.flagged,d1_1.fullname,d1_1.password,d1_1.phone,d1_1.role,d1_0.qualification,d1_0.specialization,da1_0.end_time,da1_0.start_time from doctor_availability da1_0 join doctors d1_0 on d1_0.id=da1_0.doctor_id join users d1_1 on d1_0.id=d1_1.id where da1_0.availability_id=?
+2026-05-07T21:05:28.191+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-3] org.hibernate.SQL                        : select p1_0.id,p1_1.email,p1_1.flagged,p1_1.fullname,p1_1.password,p1_1.phone,p1_1.role,p1_0.address,p1_0.blood_group,p1_0.date_of_birth,p1_0.gender from patients p1_0 join users p1_1 on p1_0.id=p1_1.id where p1_0.id=?
+Hibernate: select p1_0.id,p1_1.email,p1_1.flagged,p1_1.fullname,p1_1.password,p1_1.phone,p1_1.role,p1_0.address,p1_0.blood_group,p1_0.date_of_birth,p1_0.gender from patients p1_0 join users p1_1 on p1_0.id=p1_1.id where p1_0.id=?
+2026-05-07T21:05:28.193+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-3] org.hibernate.SQL                        : select da1_0.availability_id,da1_0.is_available,da1_0.date,da1_0.doctor_id,d1_0.id,d1_1.email,d1_1.flagged,d1_1.fullname,d1_1.password,d1_1.phone,d1_1.role,d1_0.qualification,d1_0.specialization,da1_0.end_time,da1_0.start_time from doctor_availability da1_0 join doctors d1_0 on d1_0.id=da1_0.doctor_id join users d1_1 on d1_0.id=d1_1.id where da1_0.availability_id=?
+Hibernate: select da1_0.availability_id,da1_0.is_available,da1_0.date,da1_0.doctor_id,d1_0.id,d1_1.email,d1_1.flagged,d1_1.fullname,d1_1.password,d1_1.phone,d1_1.role,d1_0.qualification,d1_0.specialization,da1_0.end_time,da1_0.start_time from doctor_availability da1_0 join doctors d1_0 on d1_0.id=da1_0.doctor_id join users d1_1 on d1_0.id=d1_1.id where da1_0.availability_id=?
+2026-05-07T21:05:28.195+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2026-05-07T21:05:28.195+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[Appointment(appointmentId=12, patient=Patient(gender=Male, address=Nyarugenge, Kigali, dateOfBirth= (truncated)...]
+2026-05-07T21:05:28.197+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-05-07T21:05:35.847+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-1] org.hibernate.SQL                        : select u1_0.id,case when u1_1.id is not null then 1 when u1_2.id is not null then 2 when u1_3.id is not null then 3 when u1_0.id is not null then 0 end,u1_0.email,u1_0.flagged,u1_0.fullname,u1_0.password,u1_0.phone,u1_0.role,u1_1.permission,u1_2.qualification,u1_2.specialization,u1_3.address,u1_3.blood_group,u1_3.date_of_birth,u1_3.gender from users u1_0 left join admins u1_1 on u1_0.id=u1_1.id left join doctors u1_2 on u1_0.id=u1_2.id left join patients u1_3 on u1_0.id=u1_3.id where u1_0.email=?
+Hibernate: select u1_0.id,case when u1_1.id is not null then 1 when u1_2.id is not null then 2 when u1_3.id is not null then 3 when u1_0.id is not null then 0 end,u1_0.email,u1_0.flagged,u1_0.fullname,u1_0.password,u1_0.phone,u1_0.role,u1_1.permission,u1_2.qualification,u1_2.specialization,u1_3.address,u1_3.blood_group,u1_3.date_of_birth,u1_3.gender from users u1_0 left join admins u1_1 on u1_0.id=u1_1.id left join doctors u1_2 on u1_0.id=u1_2.id left join patients u1_3 on u1_0.id=u1_3.id where u1_0.email=?
+2026-05-07T21:05:35.852+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/api/patients/17/records", parameters={}
+2026-05-07T21:05:35.853+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.auca.backend.controller.PatientController#getMedicalHistory(Long)
+2026-05-07T21:05:35.854+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-1] org.hibernate.SQL                        : select mr1_0.record_id,mr1_0.appointment_id,mr1_0.diagnosis,mr1_0.note,mr1_0.patient_id,mr1_0.prescription,mr1_0.visit_date from medical_records mr1_0 where mr1_0.patient_id=?
+Hibernate: select mr1_0.record_id,mr1_0.appointment_id,mr1_0.diagnosis,mr1_0.note,mr1_0.patient_id,mr1_0.prescription,mr1_0.visit_date from medical_records mr1_0 where mr1_0.patient_id=?
+2026-05-07T21:05:35.855+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2026-05-07T21:05:35.855+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[]]
+2026-05-07T21:05:35.856+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-05-07T21:05:35.864+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-4] org.hibernate.SQL                        : select u1_0.id,case when u1_1.id is not null then 1 when u1_2.id is not null then 2 when u1_3.id is not null then 3 when u1_0.id is not null then 0 end,u1_0.email,u1_0.flagged,u1_0.fullname,u1_0.password,u1_0.phone,u1_0.role,u1_1.permission,u1_2.qualification,u1_2.specialization,u1_3.address,u1_3.blood_group,u1_3.date_of_birth,u1_3.gender from users u1_0 left join admins u1_1 on u1_0.id=u1_1.id left join doctors u1_2 on u1_0.id=u1_2.id left join patients u1_3 on u1_0.id=u1_3.id where u1_0.email=?
+Hibernate: select u1_0.id,case when u1_1.id is not null then 1 when u1_2.id is not null then 2 when u1_3.id is not null then 3 when u1_0.id is not null then 0 end,u1_0.email,u1_0.flagged,u1_0.fullname,u1_0.password,u1_0.phone,u1_0.role,u1_1.permission,u1_2.qualification,u1_2.specialization,u1_3.address,u1_3.blood_group,u1_3.date_of_birth,u1_3.gender from users u1_0 left join admins u1_1 on u1_0.id=u1_1.id left join doctors u1_2 on u1_0.id=u1_2.id left join patients u1_3 on u1_0.id=u1_3.id where u1_0.email=?
+2026-05-07T21:05:35.869+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/api/patients/17/records", parameters={}
+2026-05-07T21:05:35.869+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.auca.backend.controller.PatientController#getMedicalHistory(Long)
+2026-05-07T21:05:35.870+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-4] org.hibernate.SQL                        : select mr1_0.record_id,mr1_0.appointment_id,mr1_0.diagnosis,mr1_0.note,mr1_0.patient_id,mr1_0.prescription,mr1_0.visit_date from medical_records mr1_0 where mr1_0.patient_id=?
+Hibernate: select mr1_0.record_id,mr1_0.appointment_id,mr1_0.diagnosis,mr1_0.note,mr1_0.patient_id,mr1_0.prescription,mr1_0.visit_date from medical_records mr1_0 where mr1_0.patient_id=?
+2026-05-07T21:05:35.872+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2026-05-07T21:05:35.872+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[]]
+2026-05-07T21:05:35.873+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-05-07T21:05:36.844+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-7] org.hibernate.SQL                        : select u1_0.id,case when u1_1.id is not null then 1 when u1_2.id is not null then 2 when u1_3.id is not null then 3 when u1_0.id is not null then 0 end,u1_0.email,u1_0.flagged,u1_0.fullname,u1_0.password,u1_0.phone,u1_0.role,u1_1.permission,u1_2.qualification,u1_2.specialization,u1_3.address,u1_3.blood_group,u1_3.date_of_birth,u1_3.gender from users u1_0 left join admins u1_1 on u1_0.id=u1_1.id left join doctors u1_2 on u1_0.id=u1_2.id left join patients u1_3 on u1_0.id=u1_3.id where u1_0.email=?
+Hibernate: select u1_0.id,case when u1_1.id is not null then 1 when u1_2.id is not null then 2 when u1_3.id is not null then 3 when u1_0.id is not null then 0 end,u1_0.email,u1_0.flagged,u1_0.fullname,u1_0.password,u1_0.phone,u1_0.role,u1_1.permission,u1_2.qualification,u1_2.specialization,u1_3.address,u1_3.blood_group,u1_3.date_of_birth,u1_3.gender from users u1_0 left join admins u1_1 on u1_0.id=u1_1.id left join doctors u1_2 on u1_0.id=u1_2.id left join patients u1_3 on u1_0.id=u1_3.id where u1_0.email=?
+2026-05-07T21:05:36.851+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/api/patients/17", parameters={}
+2026-05-07T21:05:36.852+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.auca.backend.controller.PatientController#getProfile(Long)
+2026-05-07T21:05:36.869+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-7] org.hibernate.SQL                        : select p1_0.id,p1_1.email,p1_1.flagged,p1_1.fullname,p1_1.password,p1_1.phone,p1_1.role,p1_0.address,p1_0.blood_group,p1_0.date_of_birth,p1_0.gender from patients p1_0 join users p1_1 on p1_0.id=p1_1.id where p1_0.id=?
+Hibernate: select p1_0.id,p1_1.email,p1_1.flagged,p1_1.fullname,p1_1.password,p1_1.phone,p1_1.role,p1_0.address,p1_0.blood_group,p1_0.date_of_birth,p1_0.gender from patients p1_0 join users p1_1 on p1_0.id=p1_1.id where p1_0.id=?
+2026-05-07T21:05:36.873+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2026-05-07T21:05:36.873+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [Patient(gender=Male, address=Nyarugenge, Kigali, dateOfBirth=1996-11-03 00:00:00.0, bloodGroup=O-)]
+2026-05-07T21:05:36.875+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-05-07T21:05:36.884+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-5] org.hibernate.SQL                        : select u1_0.id,case when u1_1.id is not null then 1 when u1_2.id is not null then 2 when u1_3.id is not null then 3 when u1_0.id is not null then 0 end,u1_0.email,u1_0.flagged,u1_0.fullname,u1_0.password,u1_0.phone,u1_0.role,u1_1.permission,u1_2.qualification,u1_2.specialization,u1_3.address,u1_3.blood_group,u1_3.date_of_birth,u1_3.gender from users u1_0 left join admins u1_1 on u1_0.id=u1_1.id left join doctors u1_2 on u1_0.id=u1_2.id left join patients u1_3 on u1_0.id=u1_3.id where u1_0.email=?
+Hibernate: select u1_0.id,case when u1_1.id is not null then 1 when u1_2.id is not null then 2 when u1_3.id is not null then 3 when u1_0.id is not null then 0 end,u1_0.email,u1_0.flagged,u1_0.fullname,u1_0.password,u1_0.phone,u1_0.role,u1_1.permission,u1_2.qualification,u1_2.specialization,u1_3.address,u1_3.blood_group,u1_3.date_of_birth,u1_3.gender from users u1_0 left join admins u1_1 on u1_0.id=u1_1.id left join doctors u1_2 on u1_0.id=u1_2.id left join patients u1_3 on u1_0.id=u1_3.id where u1_0.email=?
+2026-05-07T21:05:36.888+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/api/patients/17", parameters={}
+2026-05-07T21:05:36.888+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.auca.backend.controller.PatientController#getProfile(Long)
+2026-05-07T21:05:36.890+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-5] org.hibernate.SQL                        : select p1_0.id,p1_1.email,p1_1.flagged,p1_1.fullname,p1_1.password,p1_1.phone,p1_1.role,p1_0.address,p1_0.blood_group,p1_0.date_of_birth,p1_0.gender from patients p1_0 join users p1_1 on p1_0.id=p1_1.id where p1_0.id=?
+Hibernate: select p1_0.id,p1_1.email,p1_1.flagged,p1_1.fullname,p1_1.password,p1_1.phone,p1_1.role,p1_0.address,p1_0.blood_group,p1_0.date_of_birth,p1_0.gender from patients p1_0 join users p1_1 on p1_0.id=p1_1.id where p1_0.id=?
+2026-05-07T21:05:36.892+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2026-05-07T21:05:36.893+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [Patient(gender=Male, address=Nyarugenge, Kigali, dateOfBirth=1996-11-03 00:00:00.0, bloodGroup=O-)]
+2026-05-07T21:05:36.894+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-05-07T21:05:39.162+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-6] org.hibernate.SQL                        : select u1_0.id,case when u1_1.id is not null then 1 when u1_2.id is not null then 2 when u1_3.id is not null then 3 when u1_0.id is not null then 0 end,u1_0.email,u1_0.flagged,u1_0.fullname,u1_0.password,u1_0.phone,u1_0.role,u1_1.permission,u1_2.qualification,u1_2.specialization,u1_3.address,u1_3.blood_group,u1_3.date_of_birth,u1_3.gender from users u1_0 left join admins u1_1 on u1_0.id=u1_1.id left join doctors u1_2 on u1_0.id=u1_2.id left join patients u1_3 on u1_0.id=u1_3.id where u1_0.email=?
+Hibernate: select u1_0.id,case when u1_1.id is not null then 1 when u1_2.id is not null then 2 when u1_3.id is not null then 3 when u1_0.id is not null then 0 end,u1_0.email,u1_0.flagged,u1_0.fullname,u1_0.password,u1_0.phone,u1_0.role,u1_1.permission,u1_2.qualification,u1_2.specialization,u1_3.address,u1_3.blood_group,u1_3.date_of_birth,u1_3.gender from users u1_0 left join admins u1_1 on u1_0.id=u1_1.id left join doctors u1_2 on u1_0.id=u1_2.id left join patients u1_3 on u1_0.id=u1_3.id where u1_0.email=?
+2026-05-07T21:05:39.164+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-9] org.hibernate.SQL                        : select u1_0.id,case when u1_1.id is not null then 1 when u1_2.id is not null then 2 when u1_3.id is not null then 3 when u1_0.id is not null then 0 end,u1_0.email,u1_0.flagged,u1_0.fullname,u1_0.password,u1_0.phone,u1_0.role,u1_1.permission,u1_2.qualification,u1_2.specialization,u1_3.address,u1_3.blood_group,u1_3.date_of_birth,u1_3.gender from users u1_0 left join admins u1_1 on u1_0.id=u1_1.id left join doctors u1_2 on u1_0.id=u1_2.id left join patients u1_3 on u1_0.id=u1_3.id where u1_0.email=?
+Hibernate: select u1_0.id,case when u1_1.id is not null then 1 when u1_2.id is not null then 2 when u1_3.id is not null then 3 when u1_0.id is not null then 0 end,u1_0.email,u1_0.flagged,u1_0.fullname,u1_0.password,u1_0.phone,u1_0.role,u1_1.permission,u1_2.qualification,u1_2.specialization,u1_3.address,u1_3.blood_group,u1_3.date_of_birth,u1_3.gender from users u1_0 left join admins u1_1 on u1_0.id=u1_1.id left join doctors u1_2 on u1_0.id=u1_2.id left join patients u1_3 on u1_0.id=u1_3.id where u1_0.email=?
+2026-05-07T21:05:39.167+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/api/patients/17/appointments", parameters={}
+2026-05-07T21:05:39.168+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.auca.backend.controller.PatientController#getAppointments(Long)
+2026-05-07T21:05:39.169+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/api/patients/17/records", parameters={}
+2026-05-07T21:05:39.170+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-6] org.hibernate.SQL                        : select a1_0.appointment_id,a1_0.availability_id,a1_0.date,a1_0.doctor_id,a1_0.note,a1_0.patient_id,a1_0.status,a1_0.time from appointments a1_0 where a1_0.patient_id=?
+Hibernate: select a1_0.appointment_id,a1_0.availability_id,a1_0.date,a1_0.doctor_id,a1_0.note,a1_0.patient_id,a1_0.status,a1_0.time from appointments a1_0 where a1_0.patient_id=?
+2026-05-07T21:05:39.170+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.auca.backend.controller.PatientController#getMedicalHistory(Long)
+2026-05-07T21:05:39.171+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-6] org.hibernate.SQL                        : select da1_0.availability_id,da1_0.is_available,da1_0.date,da1_0.doctor_id,d1_0.id,d1_1.email,d1_1.flagged,d1_1.fullname,d1_1.password,d1_1.phone,d1_1.role,d1_0.qualification,d1_0.specialization,da1_0.end_time,da1_0.start_time from doctor_availability da1_0 join doctors d1_0 on d1_0.id=da1_0.doctor_id join users d1_1 on d1_0.id=d1_1.id where da1_0.availability_id=?
+Hibernate: select da1_0.availability_id,da1_0.is_available,da1_0.date,da1_0.doctor_id,d1_0.id,d1_1.email,d1_1.flagged,d1_1.fullname,d1_1.password,d1_1.phone,d1_1.role,d1_0.qualification,d1_0.specialization,da1_0.end_time,da1_0.start_time from doctor_availability da1_0 join doctors d1_0 on d1_0.id=da1_0.doctor_id join users d1_1 on d1_0.id=d1_1.id where da1_0.availability_id=?
+2026-05-07T21:05:39.172+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-9] org.hibernate.SQL                        : select mr1_0.record_id,mr1_0.appointment_id,mr1_0.diagnosis,mr1_0.note,mr1_0.patient_id,mr1_0.prescription,mr1_0.visit_date from medical_records mr1_0 where mr1_0.patient_id=?
+Hibernate: select mr1_0.record_id,mr1_0.appointment_id,mr1_0.diagnosis,mr1_0.note,mr1_0.patient_id,mr1_0.prescription,mr1_0.visit_date from medical_records mr1_0 where mr1_0.patient_id=?
+2026-05-07T21:05:39.173+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-6] org.hibernate.SQL                        : select p1_0.id,p1_1.email,p1_1.flagged,p1_1.fullname,p1_1.password,p1_1.phone,p1_1.role,p1_0.address,p1_0.blood_group,p1_0.date_of_birth,p1_0.gender from patients p1_0 join users p1_1 on p1_0.id=p1_1.id where p1_0.id=?
+Hibernate: select p1_0.id,p1_1.email,p1_1.flagged,p1_1.fullname,p1_1.password,p1_1.phone,p1_1.role,p1_0.address,p1_0.blood_group,p1_0.date_of_birth,p1_0.gender from patients p1_0 join users p1_1 on p1_0.id=p1_1.id where p1_0.id=?
+2026-05-07T21:05:39.174+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2026-05-07T21:05:39.174+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[]]
+2026-05-07T21:05:39.176+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-6] org.hibernate.SQL                        : select da1_0.availability_id,da1_0.is_available,da1_0.date,da1_0.doctor_id,d1_0.id,d1_1.email,d1_1.flagged,d1_1.fullname,d1_1.password,d1_1.phone,d1_1.role,d1_0.qualification,d1_0.specialization,da1_0.end_time,da1_0.start_time from doctor_availability da1_0 join doctors d1_0 on d1_0.id=da1_0.doctor_id join users d1_1 on d1_0.id=d1_1.id where da1_0.availability_id=?
+Hibernate: select da1_0.availability_id,da1_0.is_available,da1_0.date,da1_0.doctor_id,d1_0.id,d1_1.email,d1_1.flagged,d1_1.fullname,d1_1.password,d1_1.phone,d1_1.role,d1_0.qualification,d1_0.specialization,da1_0.end_time,da1_0.start_time from doctor_availability da1_0 join doctors d1_0 on d1_0.id=da1_0.doctor_id join users d1_1 on d1_0.id=d1_1.id where da1_0.availability_id=?
+2026-05-07T21:05:39.176+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-05-07T21:05:39.178+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2026-05-07T21:05:39.178+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[Appointment(appointmentId=12, patient=Patient(gender=Male, address=Nyarugenge, Kigali, dateOfBirth= (truncated)...]
+2026-05-07T21:05:39.179+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-05-07T21:05:39.183+02:00 DEBUG 31864 --- [backend] [io-8081-exec-10] org.hibernate.SQL                        : select u1_0.id,case when u1_1.id is not null then 1 when u1_2.id is not null then 2 when u1_3.id is not null then 3 when u1_0.id is not null then 0 end,u1_0.email,u1_0.flagged,u1_0.fullname,u1_0.password,u1_0.phone,u1_0.role,u1_1.permission,u1_2.qualification,u1_2.specialization,u1_3.address,u1_3.blood_group,u1_3.date_of_birth,u1_3.gender from users u1_0 left join admins u1_1 on u1_0.id=u1_1.id left join doctors u1_2 on u1_0.id=u1_2.id left join patients u1_3 on u1_0.id=u1_3.id where u1_0.email=?
+Hibernate: select u1_0.id,case when u1_1.id is not null then 1 when u1_2.id is not null then 2 when u1_3.id is not null then 3 when u1_0.id is not null then 0 end,u1_0.email,u1_0.flagged,u1_0.fullname,u1_0.password,u1_0.phone,u1_0.role,u1_1.permission,u1_2.qualification,u1_2.specialization,u1_3.address,u1_3.blood_group,u1_3.date_of_birth,u1_3.gender from users u1_0 left join admins u1_1 on u1_0.id=u1_1.id left join doctors u1_2 on u1_0.id=u1_2.id left join patients u1_3 on u1_0.id=u1_3.id where u1_0.email=?
+2026-05-07T21:05:39.186+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-8] org.hibernate.SQL                        : select u1_0.id,case when u1_1.id is not null then 1 when u1_2.id is not null then 2 when u1_3.id is not null then 3 when u1_0.id is not null then 0 end,u1_0.email,u1_0.flagged,u1_0.fullname,u1_0.password,u1_0.phone,u1_0.role,u1_1.permission,u1_2.qualification,u1_2.specialization,u1_3.address,u1_3.blood_group,u1_3.date_of_birth,u1_3.gender from users u1_0 left join admins u1_1 on u1_0.id=u1_1.id left join doctors u1_2 on u1_0.id=u1_2.id left join patients u1_3 on u1_0.id=u1_3.id where u1_0.email=?
+Hibernate: select u1_0.id,case when u1_1.id is not null then 1 when u1_2.id is not null then 2 when u1_3.id is not null then 3 when u1_0.id is not null then 0 end,u1_0.email,u1_0.flagged,u1_0.fullname,u1_0.password,u1_0.phone,u1_0.role,u1_1.permission,u1_2.qualification,u1_2.specialization,u1_3.address,u1_3.blood_group,u1_3.date_of_birth,u1_3.gender from users u1_0 left join admins u1_1 on u1_0.id=u1_1.id left join doctors u1_2 on u1_0.id=u1_2.id left join patients u1_3 on u1_0.id=u1_3.id where u1_0.email=?
+2026-05-07T21:05:39.188+02:00 DEBUG 31864 --- [backend] [io-8081-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/api/patients/17/records", parameters={}
+2026-05-07T21:05:39.189+02:00 DEBUG 31864 --- [backend] [io-8081-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.auca.backend.controller.PatientController#getMedicalHistory(Long)
+2026-05-07T21:05:39.189+02:00 DEBUG 31864 --- [backend] [io-8081-exec-10] org.hibernate.SQL                        : select mr1_0.record_id,mr1_0.appointment_id,mr1_0.diagnosis,mr1_0.note,mr1_0.patient_id,mr1_0.prescription,mr1_0.visit_date from medical_records mr1_0 where mr1_0.patient_id=?
+Hibernate: select mr1_0.record_id,mr1_0.appointment_id,mr1_0.diagnosis,mr1_0.note,mr1_0.patient_id,mr1_0.prescription,mr1_0.visit_date from medical_records mr1_0 where mr1_0.patient_id=?
+2026-05-07T21:05:39.191+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/api/patients/17/appointments", parameters={}
+2026-05-07T21:05:39.192+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.auca.backend.controller.PatientController#getAppointments(Long)
+2026-05-07T21:05:39.192+02:00 DEBUG 31864 --- [backend] [io-8081-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2026-05-07T21:05:39.192+02:00 DEBUG 31864 --- [backend] [io-8081-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[]]
+2026-05-07T21:05:39.193+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-8] org.hibernate.SQL                        : select a1_0.appointment_id,a1_0.availability_id,a1_0.date,a1_0.doctor_id,a1_0.note,a1_0.patient_id,a1_0.status,a1_0.time from appointments a1_0 where a1_0.patient_id=?
+Hibernate: select a1_0.appointment_id,a1_0.availability_id,a1_0.date,a1_0.doctor_id,a1_0.note,a1_0.patient_id,a1_0.status,a1_0.time from appointments a1_0 where a1_0.patient_id=?
+2026-05-07T21:05:39.193+02:00 DEBUG 31864 --- [backend] [io-8081-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-05-07T21:05:39.194+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-8] org.hibernate.SQL                        : select da1_0.availability_id,da1_0.is_available,da1_0.date,da1_0.doctor_id,d1_0.id,d1_1.email,d1_1.flagged,d1_1.fullname,d1_1.password,d1_1.phone,d1_1.role,d1_0.qualification,d1_0.specialization,da1_0.end_time,da1_0.start_time from doctor_availability da1_0 join doctors d1_0 on d1_0.id=da1_0.doctor_id join users d1_1 on d1_0.id=d1_1.id where da1_0.availability_id=?
+Hibernate: select da1_0.availability_id,da1_0.is_available,da1_0.date,da1_0.doctor_id,d1_0.id,d1_1.email,d1_1.flagged,d1_1.fullname,d1_1.password,d1_1.phone,d1_1.role,d1_0.qualification,d1_0.specialization,da1_0.end_time,da1_0.start_time from doctor_availability da1_0 join doctors d1_0 on d1_0.id=da1_0.doctor_id join users d1_1 on d1_0.id=d1_1.id where da1_0.availability_id=?
+2026-05-07T21:05:39.197+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-8] org.hibernate.SQL                        : select p1_0.id,p1_1.email,p1_1.flagged,p1_1.fullname,p1_1.password,p1_1.phone,p1_1.role,p1_0.address,p1_0.blood_group,p1_0.date_of_birth,p1_0.gender from patients p1_0 join users p1_1 on p1_0.id=p1_1.id where p1_0.id=?
+Hibernate: select p1_0.id,p1_1.email,p1_1.flagged,p1_1.fullname,p1_1.password,p1_1.phone,p1_1.role,p1_0.address,p1_0.blood_group,p1_0.date_of_birth,p1_0.gender from patients p1_0 join users p1_1 on p1_0.id=p1_1.id where p1_0.id=?
+2026-05-07T21:05:39.199+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-8] org.hibernate.SQL                        : select da1_0.availability_id,da1_0.is_available,da1_0.date,da1_0.doctor_id,d1_0.id,d1_1.email,d1_1.flagged,d1_1.fullname,d1_1.password,d1_1.phone,d1_1.role,d1_0.qualification,d1_0.specialization,da1_0.end_time,da1_0.start_time from doctor_availability da1_0 join doctors d1_0 on d1_0.id=da1_0.doctor_id join users d1_1 on d1_0.id=d1_1.id where da1_0.availability_id=?
+Hibernate: select da1_0.availability_id,da1_0.is_available,da1_0.date,da1_0.doctor_id,d1_0.id,d1_1.email,d1_1.flagged,d1_1.fullname,d1_1.password,d1_1.phone,d1_1.role,d1_0.qualification,d1_0.specialization,da1_0.end_time,da1_0.start_time from doctor_availability da1_0 join doctors d1_0 on d1_0.id=da1_0.doctor_id join users d1_1 on d1_0.id=d1_1.id where da1_0.availability_id=?
+2026-05-07T21:05:39.202+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2026-05-07T21:05:39.202+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[Appointment(appointmentId=12, patient=Patient(gender=Male, address=Nyarugenge, Kigali, dateOfBirth= (truncated)...]
+2026-05-07T21:05:39.203+02:00 DEBUG 31864 --- [backend] [nio-8081-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
